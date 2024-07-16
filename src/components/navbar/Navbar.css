@@ -1,1 +1,11 @@
-/* write Navbar Css here */
+.full-width{
+    width: 100%;
+}
+.main-content-1320{
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+    margin: 0 auto;
+}
