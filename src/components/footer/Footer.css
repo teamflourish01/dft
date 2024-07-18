@@ -3,6 +3,11 @@
     src: url("../../Poppins/Poppins-Bold.ttf");
     /* 700 */
 }
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../../Poppins/Poppins-SemiBold.ttf");
+    /* 600 */
+}
 
 @font-face {
     font-family: Poppins-Light;
