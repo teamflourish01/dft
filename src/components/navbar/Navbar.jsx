@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className='full-width'>
         <div className="main-content-1320">
           <div className="padding-dft">
+
             <div className="main-navbar">
               <div className="inner-navbar">
               <div className='dft-logo-hamburger'>
@@ -32,6 +33,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
