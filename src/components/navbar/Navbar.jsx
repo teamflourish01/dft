@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className='full-width'>
         <div className="main-content-1320">
           <div className="padding-dft">
-
+        
           </div>
         </div>
       </div>

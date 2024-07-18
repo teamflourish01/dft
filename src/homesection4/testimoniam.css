@@ -1,0 +1,80 @@
+.full-width{
+    /* display: flex; */
+}
+
+
+.tesmoniom-container{
+    padding: 100px 0 0 0;
+}
+.width-imgs{
+    background-image: url("../images/bimg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    /* background-size: cover; */
+    height: 438.54px;
+    width: 439.64px;
+    top: 125%;
+    /* padding: 90px 0 0 0 ; */
+}
+.title{
+    text-align: center;
+}
+.testimoniam{
+    
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 50px;
+}
+.tesmonion-main{
+    
+}
+.tesmonion-main{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.testim-p{
+    max-width: 603px;
+    min-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+   
+    
+}
+.tesmoniam-p{
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px 0 15px 0;
+}
+.alexander{
+    font-family: Poppins-SemiBold;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots li button:before {
+    color: black;
+}
+.tesmo-img{
+    margin: 0 auto;
+}
+.tesmonion-main{}
+
+
+.slider-wrapper {
+    max-width: 985px;
+    margin: 0 auto;
+    
+}
+.padding-dft{
+
+}
