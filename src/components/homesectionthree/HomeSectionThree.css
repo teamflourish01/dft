@@ -9,10 +9,9 @@
 }
 
 .section-three-title {
-    font-family: Poppins-Bold;
-    font-size: 50px;
     line-height: 60.95px;
     text-align: center;
+    padding: 100px 0 50px;
 }
 
 /* .notable-alumni-cards {
@@ -193,7 +192,8 @@
 
 @media (max-width: 1024px) {
     .notable-card{
-        width: 90%;
+        /* width: 90%; */
+        margin: 0 20px;
     }
 }
 
@@ -207,8 +207,9 @@
         font-family: Poppins-Bold;
         font-size: 20px;
         line-height: 24.38px;
+        padding: 50px 0 20px;
     }
-    .notable-card{
+    /* .notable-card{
         width: 95%;
-    }
+    } */
 }

@@ -57,7 +57,10 @@ function HomeSectionThree() {
                         <div className="main-content-1320">
                             <div className="padding-dft">
                                 <div className="section-three">
-                                    <p className='section-three-title'> Notable Alumni</p>
+                                    <div className="title">
+                                        <p className="maintitle section-three-title">Notable Alumni</p>
+                                    </div>
+                                    {/* <p className='section-three-title'> Notable Alumni</p> */}
                                     <div className="notable-alumni-cards">
 
                                         <Slider {...sliderSettings}>

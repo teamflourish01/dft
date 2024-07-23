@@ -1,0 +1,76 @@
+.notable-container {
+    padding: 0 20px;
+}
+
+.notabal-title {
+    margin: 100px 0 50px;
+}
+
+.notable-cards {
+    max-width: 1320px;
+    min-width: 200px;
+    border: 1.5px solid #E42326;
+    border-radius: 17px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.title-cards {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 40px; */
+    margin: 20px 30px 20px 40px;
+}
+
+.li-title li {
+    color: black;
+    text-align: left;
+    margin: 0;
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.icon-down-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.notabal-card-content {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 20px 40px 0 25px;
+}
+
+@media (max-width:767px) {
+    .title-cards {
+        margin: 10px 0px 20px 20px;
+        font-size: 16px;
+    }
+
+    .icon-down-arrow {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .notabal-card-content {
+        font-size: 16px;
+    }
+
+    .icon-down-arrow {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .li-title li {
+        font-size: 16px;
+    }
+    .notabal-title {
+        margin: 50px 0 20px;
+    }
+}
