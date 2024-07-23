@@ -21,6 +21,7 @@ const Navbar = () => {
             <div className="main-navbar">
               <div className="inner-navbar">
                 <div className='dft-logo-hamburger'>
+                  
                   <img src={logo} alt="Logo" />
                 </div>
                 <ul className={`navigation-bar ${isOpen ? 'open' : ''}`}>
@@ -30,14 +31,20 @@ const Navbar = () => {
                   <li>
                     <Link to="/about" className="nav-link" onClick={closeMenu}>About DFT Alumni</Link>
                   </li>
-                  <li><a href="">Newsletter</a></li>
+                  <li>
+                    <Link to="/newsletter" className="nav-link" onClick={closeMenu}>Newsletter</Link>
+                  </li>
                   <div className='dft-logo'>
+                  <Link to="/" className="nav-link">
                     <img src={logo} alt="Logo" />
+                    </Link>
                   </div>
                   <li>
                     <Link to="/notabalalumni" className="nav-link" onClick={closeMenu}>Notabal Alumni</Link>
                   </li>
-                  <li><a href="">Gallery</a></li>
+                  <li>
+                    <Link to="/Gallerypage" className="nav-link" onClick={closeMenu}>Gallery</Link>
+                  </li>
                   <li>
                     <Link to="/contactus" className="nav-link" onClick={closeMenu}>Contact Us</Link>
                   </li>
