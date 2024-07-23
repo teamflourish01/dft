@@ -19,7 +19,7 @@ const Navbar = () => {
               </div>
                 <ul className={`navigation-bar ${isOpen ? 'open' : ''}`}>
                   <li><a href="">Home</a></li>
-                  <li><a href="">About DFT Alumni</a></li>
+                  <li><a href="/">About DFT Alumni</a></li>
                   <li><a href="">Newsletter</a></li>
                   <div className='dft-logo'>
                     <img src={logo} alt="Logo" />

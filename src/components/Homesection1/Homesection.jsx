@@ -18,53 +18,48 @@ const Homesection = () => {
     <>
       <section>
         <div className="full-width">
-
         <div className="width-img" data-aos="slide-right"></div>
+
           <div className="content-flex">
             <div className="main-content-1320">
               <div className="padding-dft">
                 <div className="adventure">
                   <div className="adventure-main">
-                    <div className="adventure-flex" data-aos="slide-right">
-                      <div className="adventure-left" >
-                        <p className="find">FIND YOUR</p>
-                        <p className="adventure-p">ADVENTURE</p>
+                    <div className="adventure-flex">
+                      <div className="adventure-left" data-aos="slide-right">
+                        <p className="find">FIND YOUR ADVENTURE</p>
+                      
                         <p className="let">LET’S GO!</p>
                         <p className="amet">
                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                        </p>
-                        <p className="nonummy">
                           sed diam nonummy nibh euismod tincidunt ut laoreet
                         </p>
+                        <p className="nonummy">
+                          
+                        </p>
                       </div>
-                      <div className="adventure-right-img">
-                      
-                      <div className="adv-left" >
-                            <img src={homebanner} alt="Home Banner"  className="home-banner"/>
-                          </div>
-                      </div>
-                      </div>
-
                       <div className="adventure-right">
                         <div className="adv-flex">
-
+                          <div className="adv-left" data-aos="slide-right">
+                            <img src={homebanner} alt="Home Banner"  className="home-banner"/>
+                          </div>
                           <div className="adv-right" data-aos="slide-left">
                             <div className="img-animation">
-                              <img src={dft} alt="DFT" />
+                              <img src={dft} alt="DFT" className="dft-image"/>
                             </div>
                             <div className="img-animation">
-                              <img src={welcome} alt="Welcome" />
+                              <img src={welcome} alt="Welcome"  className="welcome-img"/>
                             </div>
                           </div>
                         </div>
                       </div>
-                  
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="full-widths" data-aos="fade-left">
-              <img src={bright} alt="Bright" />
+              {/* <img src={bright} alt="Bright" /> */}
             </div>
           </div>
         </div>
