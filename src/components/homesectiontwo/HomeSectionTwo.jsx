@@ -51,7 +51,7 @@ function HomeSectionTwo() {
                             </div>
                             <div className="about-txt animate__animated animate__fadeInRight animate__slower">
                                 {/* <p className='about-title'>About DFT Alumni</p> */}
-                                <div className="title">
+                                <div>
                                     <p className="maintitle about-title">About DFT Alumni</p>
                                 </div>
                                 <p className='about-description'>
