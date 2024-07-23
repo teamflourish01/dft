@@ -1,8 +1,11 @@
 import React from 'react'
+import Purpose from '../../components/purposedft/Purpose'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Purpose/>
+    </>
   )
 }
 
