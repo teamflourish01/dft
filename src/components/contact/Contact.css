@@ -1,0 +1,172 @@
+.contact-container {
+    padding: 0 30px 100px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    /* border: 1px solid black; */
+}
+
+.contact-title {
+    padding: 100px 0 50px;
+}
+
+.contact-form {
+    max-width: 745px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.name-contact-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input-field {
+    margin: 10px;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.input-group {
+    border: 1px solid #E42326;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+textarea.input {
+    height: 100px;
+    resize: none;
+}
+
+/* .name-contact{
+    width: 50%;
+} */
+.name-contact {
+    max-width: 365px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.btn-contact {
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+.contact-address {
+    max-width: 531px;
+    min-width: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 62px;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+.address {
+    text-align: center;
+    max-width: 531px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.phone-number {
+    padding: 20px 0;
+}
+
+.icon-contact {
+    padding-bottom: 10px;
+}
+
+
+@media (max-width:1024px) {
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-form {
+        max-width: 965px;
+        min-width: 200px;
+        width: 100%;
+    }
+
+    .contact-address {
+        max-width: 960px;
+        min-width: 200px;
+        width: 100%;
+        padding: 20px 62px;
+
+    }
+
+    .name-contact {
+        max-width: 455px;
+        min-width: 200px;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:767px) {
+    .name-contact-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-contact {
+        max-width: 705px;
+        min-width: 200px;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .name-contact-input {
+        margin-right: 20px;
+    }
+
+    .input-field {
+        font-size: 16px;
+    }
+
+    .contact-address {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
+
+    .contact-title {
+        padding: 50px 0 20px;
+    }
+
+    .address-land-mark {
+            /* width: 192px; */
+            /* height: 135px; */
+            font-size: 14px;
+    }
+
+}
