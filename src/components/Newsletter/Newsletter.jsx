@@ -2,13 +2,17 @@ import React from "react";
 import "./newsletter.css";
 import Button from "../button/Button";
 import pdf from "../../images/pdf.png";
+import Banner from "../banner/Banner";
+
 const Newsletter = () => {
   return (
     <>
       <section>
         <div className="full-width">
+            <Banner currentTabName="Newsletter" />
           <div className="main-content-1320">
             <div className="padding-dft">
+
             <div className="title">
               <p className="maintitle">Newsletter</p>
             </div>

@@ -1,6 +1,6 @@
 .Among-Alumni {
   /* border: 1px solid black; */
-  padding: 50px 30px 0 30px;
+  padding: 0px 30px 0 30px;
 }
 .among-flex {
   display: flex;
@@ -132,6 +132,7 @@ ol li:hover {
 .founder-flex {
   display: flex;
   justify-content: space-between;
+  gap: 56px;
 }
 .founder-left {
   max-width: 928px;
@@ -173,7 +174,7 @@ ol li:hover {
   padding: 15px 0;
 }
 .founder-padding {
-  padding: 50px 0 0 0;
+  padding: 0 30px;
 }
 hr {
   border: 1px solid #e42326;

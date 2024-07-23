@@ -25,6 +25,9 @@
 
   
 }
+.news-latter-container{
+    padding: 0 30px;
+}
 .news-section{
     text-align: center;
 }
@@ -64,5 +67,8 @@
     .news-main{
         padding: 0 15px;
 
+    }
+    .news-latter-container{
+        padding: unset;
     }
 }
