@@ -11,7 +11,7 @@ import About from './pages/about/About';
 import News from './pages/newsletter/News';
 import Gallerypage from './pages/gallerypage/Gallerypage';
 import Galleryimg from './components/gallery/Galleryimg';
-import About from './pages/about/About';
+// import About from './pages/about/About';
 import Notabal from './components/notabalalumni/Notabal';
 import NotabalAlumni from './pages/notabalalumni/NotabalAlumni';
 import Contact from './components/contact/Contact';
@@ -29,11 +29,7 @@ function App() {
         <Route path='/newsletter' element={<News/>}/>
         <Route path='/Gallerypage' element={<Gallerypage/>}/>
         <Route path='/Galleryimg' element={<Galleryimg/>}/>
-
-
-
-        
-        <Route path='/about' element={<About/>}/>
+        {/* <Route path='/about' element={<About/>}/> */}
         <Route path='/notabalalumni' element={<NotabalAlumni/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
 
