@@ -1,6 +1,6 @@
 
 import Purpose from '../../components/purposedft/Purpose'
-import React from 'react';
+
 import Banner from '../../components/banner/Banner';
 import '../about/About.css';
 import VisionMission from '../../components/visionmission/VisionMission';
