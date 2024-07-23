@@ -3,13 +3,16 @@ import "./gallery.css";
 import gallery from "../../images/gallery.png";
 import { Link } from "react-router-dom";
 import Galleryimg from "./Galleryimg";
+import Banner from "../banner/Banner";
 const Gallery = () => {
   return (
     <>
       <section>
         <div className="full-width">
+            <Banner currentTabName="Gallery" />
           <div className="main-content-1320">
             <div className="padding-dft"></div>
+
             <div className="title">
               <p className="maintitle">Gallery</p>
             </div>

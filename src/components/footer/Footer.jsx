@@ -5,7 +5,8 @@ import flogo from "../../images/flogo.png"
 const Footer = () => {
   return (
     <>
-      <div className="fimg"><img src={fimg} alt="" srcset="" className="fimg-end" /> </div>
+      {/* <div className="fimg"><img src={fimg} alt="" srcset="" className="fimg-end" /> </div> */}
+      <div className="footer-padding">
       <div className="footer-main">
         <div className="under-1320">
           <div className="under-1026">
@@ -32,6 +33,7 @@ const Footer = () => {
           </div>
             </div>
         </div>
+      </div>
       </div>
     </>
   );

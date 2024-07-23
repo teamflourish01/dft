@@ -13,7 +13,7 @@
     /* background-size: cover; */
     height: 438.54px;
     width: 439.64px;
-    top: 145rem;
+    top: 196em;
     /* padding: 90px 0 0 0 ; */
 }
 .title{
@@ -96,8 +96,11 @@
     .arrow{
         display: none;
     }
-}
+.width-imgs{
+display: none;
 
+}
+}
 
 @media screen and (max-width:767px){
     .tesmoniam-p{
