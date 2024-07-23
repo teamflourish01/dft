@@ -7,19 +7,21 @@
     padding: 100px 0 0 0;
 }
 .width-imgs{
-    background-image: url("../images/bimg.png");
+    background-image: url("../../images/bimg.png");
     background-repeat: no-repeat;
     position: absolute;
     /* background-size: cover; */
     height: 438.54px;
     width: 439.64px;
-    top: 125%;
+    top: 145rem;
     /* padding: 90px 0 0 0 ; */
 }
 .title{
     text-align: center;
 }
+
 .maintitle{
+    
     font-family: Montserrat-Bold;
     font-weight: 700;
     font-size: 50px;
@@ -39,6 +41,9 @@
    
     
 }
+.slick-dots{
+    position: relative;
+}
 .tesmoniam-p{
     font-family: Poppins-Regular;
     font-weight: 400;
@@ -51,17 +56,24 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+    padding: 0 0 17px 0;
 
 
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+    /* color: black; */
+}
+
+
+.slick-dots {
+    bottom: 10px; /* Adjust as needed */
 }
 
 .slick-dots li button:before {
     color: black;
+    font-size: 12px; 
 }
 .tesmo-img{
     margin: 0 auto;
@@ -76,4 +88,20 @@
 }
 .padding-dft{
 
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .arrow{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .tesmoniam-p{
+        text-align: justify;
+        padding: 0 10px;
+    } 
 }

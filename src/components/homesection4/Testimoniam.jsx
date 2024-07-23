@@ -1,14 +1,14 @@
 import React from "react";
-import "../homesection4/testimoniam.css";
+import "./testimoniam.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import img1 from "../images/img1.png";
-import img2 from "../images/img2.png";
-import img3 from "../images/img3.png";
-import left from "../images/left.png";
+import img1 from "../../images/img1.png";
+import img2 from "../../images/img2.png";
+import img3 from "../../images/img3.png";
+import left from "../../images/left.png";
 
-import right from "../images/right.png";
+import right from "../../images/right.png";
 
 
 const SampleNextArrow = (props) => {
@@ -19,7 +19,7 @@ const SampleNextArrow = (props) => {
         // style={{ ...style, display: "block", background: "black" }} 
         onClick={onClick}
       >
-      <img src={right} alt="" srcset="" />
+      <img src={right} alt="" srcset=""  className="arrow"/>
       </div>
     );
   };
@@ -29,10 +29,10 @@ const SampleNextArrow = (props) => {
     return (
       <div
         className={className}
-        // style={{ ...style, display: "block", background: "black" }} 
+        style={{ ...style, display: "block", background: "white" }} 
         onClick={onClick}
       >
-      <img src={left} alt="" srcset="" />
+      <img src={left} alt="" srcset="" className="arrow" />
       </div>
     );
   };
@@ -58,8 +58,8 @@ const Testimoniam = () => {
           <div className="main-content-1320">
             <div className="padding-dft">
               <div className="tesmoniom-container">
-                <div className="title">
-                  <p className="testimoniam">Testimonials</p>
+              <div className="title">
+                  <p className="maintitle">Testimonials</p>
                 </div>
                 <div className="slider-wrapper">
                 <Slider {...sliderSettings}>
