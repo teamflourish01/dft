@@ -1,5 +1,7 @@
 .contact-container {
-    padding: 0 30px 100px;
+    max-width: 1320px;
+    min-width: 200px;
+    padding: 0 20px 0;
 }
 
 .contact-content {

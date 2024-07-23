@@ -9,9 +9,6 @@ import AboutAlumni from '../../components/aboutalumni/AboutAlumni';
 
 const About = () => {
   return (
-    
-     
-    
     <>
       <section className='About'>
         <div className='full-width'>
@@ -20,12 +17,12 @@ const About = () => {
             <div className="padding-dft">
               <AboutAlumni />
               <VisionMission />
+              <Purpose/>
               <AlumniCommitee/>
             </div>
           </div>
         </div>
       </section>
-      <Purpose/>
     </>
   )
 }
