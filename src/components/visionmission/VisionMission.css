@@ -82,19 +82,19 @@
 .vision-mission-container {
     display: flex;
     justify-content: space-between;
-    padding: 120px 20px 80px;
+    padding: 100px 20px 0;
     gap: 20px;
 }
 
 .vision-mission-card-height {
     /* height: 200px; */
-    height: 350px;
+    height: 410px;
     /* margin: 90px 0 0; */
     background-color: #fff;
     display: flex;
     /* justify-content: center; */
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     gap: 20px;
 }
 
@@ -156,7 +156,7 @@
 @media (max-width:767px){
     .vision-mission-container{
         gap: 0;
-        padding: 0 20px 40px  ;
+        padding: 0 10px;
     }
     .vision-mission-card {
         height: auto;
@@ -169,7 +169,7 @@
         margin: 65px auto 15px;
     }
     .vision-mission-card-height {
-        /* margin: 120px 0 0; */
+        padding: 50px 0 0;
         gap: 50px;
     }
 }
@@ -177,18 +177,18 @@
 @media (max-width:550px){
     .vision-mission-card-height {
         /* gap: 100px; */
-        margin: 70px 0 0;
+        /* margin: 70px 0 0; */
     }
 }
 @media (max-width:390px){
     .vision-mission-card-height {
         /* gap: 100px; */
-        margin: 100px 0 0;
+        /* margin: 100px 0 0; */
     }
 }
 @media (max-width:320px){
     .vision-mission-card-height {
         /* gap: 100px; */
-        margin: 150px 0 0;
+        /* margin: 150px 0 0; */
     }
 }

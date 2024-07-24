@@ -116,7 +116,7 @@
 @media (max-width: 1024px) {
     .about-us {
         flex-direction: column;
-        padding: 0 20px 20px;
+        padding: 0 30px 0;
         /* gap: 20px; */
         gap: 0;
     }
@@ -159,7 +159,7 @@
         font-size: 30px;
         font-family: Poppins-Bold;
         line-height: 60.59px;
-        padding: 50px 0;
+        padding: 50px 0 20px;
     }
 
     .about-title-responsive,
@@ -167,9 +167,15 @@
     .about-txt {
         animation-play-state: running !important;
     }
+    .about-description {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 767px) {
+    .about-us {
+        padding: 0 10px 0;
+    }
     .about-img-background {
         width: 95%;
     }
@@ -182,7 +188,12 @@
     .btn-about {
         padding: 35px 0 0;
     }
-
+    .about-img-container {
+        padding: 40px 0 0;
+    }
+    .about-description {
+        padding-top: 20px;
+    }
     /* .about-us{
             flex-direction: column;
             padding: 20px;
@@ -219,7 +230,7 @@
         font-size: 20px;
         font-family: Poppins-Bold;
         line-height: 24.38px;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 
     .about-description {

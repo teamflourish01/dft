@@ -28,7 +28,7 @@
 }
 
 .input-field {
-    margin: 10px;
+    margin:0 10px 10px;
     font-family: Poppins-Regular;
     font-weight: 400;
     font-size: 18px;
@@ -130,6 +130,9 @@ textarea.input {
         max-width: 455px;
         min-width: 200px;
         width: 100%;
+    }
+    .contact-content {
+        gap: 50px;
     }
 
 }

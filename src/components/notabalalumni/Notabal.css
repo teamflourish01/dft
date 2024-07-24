@@ -24,7 +24,7 @@
     margin: 20px 30px 20px 40px;
 }
 
-.li-title li {
+.li-title .li-class {
     color: black;
     text-align: left;
     margin: 0;
@@ -67,7 +67,7 @@
         bottom: 15px;
     }
 
-    .li-title li {
+    .li-title .li-class {
         font-size: 16px;
     }
     .notabal-title {

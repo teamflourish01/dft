@@ -20,7 +20,7 @@ function AboutAlumni() {
                                 </div>
                             </div>
                             <div className="about-txt">
-                            <div className="title">
+                            <div>
                                     <p className="maintitle about-title">About DFT Alumni</p>
                                 </div>
                                 {/* <p className='about-title'>About DFT Alumni</p> */}
