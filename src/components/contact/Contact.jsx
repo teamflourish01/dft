@@ -44,7 +44,9 @@ function Contact() {
                                         <div className="input-field">
                                             <div className='input-field'>Message</div>
                                             <div className="input-group">
-                                                <textarea type="text" className='input' />
+
+                                                <textarea type="text" className='input'/>
+
                                             </div>
                                         </div>
                                     </div>
