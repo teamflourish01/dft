@@ -98,7 +98,7 @@ const Purpose = () => {
                   </div>
                   <div className="amoung-padding">
                   <div className="among-dft">
-                    <div className="amongs-title">
+                    <div className="among-title">
                       <p className="alumni-p">Alumni & DFT Aspirants</p>
                     </div>
                     <div className="aspirants-width">
@@ -170,6 +170,8 @@ const Purpose = () => {
                     स्व शुभ समाया हुआ है। Together, we'll shape a brighter
                     future of Fabrication industries.
                   </p>
+
+                  <p className="Acharya">-Dr. G. D. Acharya</p>
                 </div>
                 <div className="founder-right">
                   <div className="founder-img-bg">

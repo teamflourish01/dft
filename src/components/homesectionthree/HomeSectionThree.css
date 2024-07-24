@@ -46,7 +46,10 @@
     gap: 20px;
 }
 .notable-card-text {
-    width: 229px;
+    /* width: 229px; */
+    max-width: 228px;
+    min-width: 100px;
+    width: 100%;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
@@ -185,14 +188,19 @@
   }
   
 
-@media (max-width: 1320px){
+@media (max-width: 1320px ) {
 .home-section-three-bgimg{
     background-image: none;
 }
-.notable-card-height {
+/* .notable-card-height {
     padding: 0 30px;
+} */
 }
-}
+@media (max-width: 1220px ) and  (min-width :767px){
+    .notable-card-height {
+        padding: 0 30px;
+    }
+    }
 
 @media (max-width: 1024px) {
     .notable-card{

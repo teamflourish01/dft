@@ -44,7 +44,9 @@ function Contact() {
                                         <div className="input-field">
                                             <div className='input-field'>Message</div>
                                             <div className="input-group">
+
                                                 <textarea type="text" className='input'/>
+
                                             </div>
                                         </div>
                                     </div>
@@ -56,23 +58,20 @@ function Contact() {
                                     <div className="address">
                                         <img src={locationicon} alt="location-icon" className='icon-contact' />
                                         <p className='address-land-mark'>
-                                            A9, Gauri Nagar Society,
-                                            Near Swaminarayan Temple,
-                                            Ranna Park, Ghatlodia,
-                                            Ahmedabad- 380061
+                                        <a href="https://goo.gl/maps/npGPYMXJBweg7XJX6" target="_blank" rel="nopper" className="contact-decoration">A9, Gauri Nagar Society, Near Swaminarayan Temple, Ranna Park, Ghatlodia, Ahmedabad- 380061</a>
                                         </p>
                                     </div>
                                     <div className="phone-number">
                                         <img src={phoneicon} alt="phone-icon" className='icon-contact' />
-                                        <p>
-                                            (+91) 98254 71959
-                                            | (+91) 70161 41186
+                                        <p className='address-land-mark'>
+
+                                        <a href="tel:9825471959,tel:7016141186" className="contact-decoration"  >(+91) 98254 71959 (+91) 70161 41186</a>
                                         </p>
                                     </div>
                                     <div className="email ">
                                         <img src={emailicon} alt="email-icon" className='icon-contact' />
                                         <p className='address-land-mark'>
-                                            dftalumnifamily@gmail.com
+                                        <a href="mailto:dftalumnifamily@gmail.com" target="_blank" rel="nopper" className="contact-decoration" >dftalumnifamily@gmail.com</a>
                                         </p>
                                     </div>
 
