@@ -136,10 +136,19 @@ li:hover{
 li{
     cursor: pointer;
     color: white;
-
+    text-decoration: none;
+}
+.nav-link{
+    text-decoration: none;
 }
 .footer-padding{
     padding: 100px 0 0 0;
+}
+.footer-link{
+    text-decoration: none;
+}
+.devlopedby{
+    text-decoration: none;
 }
 
 @media screen and (max-width:767px){
