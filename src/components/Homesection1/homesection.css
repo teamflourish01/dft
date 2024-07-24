@@ -143,6 +143,9 @@
     max-width: none;
     min-width: none;
   }
+  .img-animation{
+    padding: 10px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 767px) {

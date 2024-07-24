@@ -76,13 +76,13 @@
   /* gap: 15px; */
   /* align-items: center; */
 }
-ol {
+.ol-width {
   list-style-type: none;
   padding: 0;
   counter-reset: list-item;
 }
 
-ol li {
+.ol-width .esta-width {
   counter-increment: list-item;
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ ol li {
   margin-bottom: 1em;
 }
 
-ol li::before {
+.ol-width .esta-width::before {
   content: counter(list-item);
   background-color: red;
   color: white;
@@ -106,7 +106,7 @@ ol li::before {
   flex-shrink: 0;
 }
 
-ol li:hover {
+.ol-width .esta-width:hover {
   color: black;
   cursor: text;
 }
