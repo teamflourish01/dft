@@ -53,6 +53,7 @@ padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 64px;
 }
 .adv-flex {
   display: flex;
@@ -134,7 +135,8 @@ padding: 0 30px;
 @media screen and (max-width: 1024px) {
   .adventure-flex {
     flex-direction: column;
-    padding: 0 30px;
+    gap: 20px;
+    /* padding: 0 30px; */
   }
   .adventure {
     /* padding: 0 30px; */
@@ -142,6 +144,7 @@ padding: 0 30px;
   .adventure-left {
     max-width: none;
     min-width: none;
+    padding: 0 25px;
   }
   .img-animation{
     padding: 10px 0 0 0;
@@ -156,12 +159,19 @@ padding: 0 30px;
 }
 
 @media screen and (max-width: 767px) {
+  .adventure-main{
+    padding: 0 10px;
+  }
   .adv-flex {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+  .adventure-left {
+    max-width: none;
+    min-width: none;
+    padding: 0 0;
+  }
   .dft-image {
     max-width: 704px;
     min-width: 250px;

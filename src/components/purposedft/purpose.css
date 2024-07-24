@@ -135,8 +135,8 @@
   max-width: 703px;
   min-width: 250px;
   width: 100%;
-  padding: 0 52px 19px 30px;
-  margin: 0 auto;
+  padding: 0 52px 0px 30px;
+  /* margin: 0 auto; */
 }
 .title {
   padding: 100px 0 50px 0;
@@ -183,14 +183,14 @@
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins-Regular;
-  padding: 15px 0;
+  padding: 0 0 15px;
 }
 .founder-padding {
   padding: 0 30px;
 }
 hr {
   border: 1px solid #e42326;
-  margin: 65px 0;
+  margin: 65px 0 50px 0;
 }
 .hr-line {
   /* padding: 65px 0 50px 0; */
@@ -201,6 +201,7 @@ hr {
   font-family: Poppins-Regular;
   text-align: justify;
   /* padding: 15px 30px; */
+  padding: 0 0 15px;
 }
 .immensee {
   font-size: 18px;
@@ -208,6 +209,13 @@ hr {
   font-family: Poppins-Regular;
   text-align: justify;
   padding: 0 30px;
+}
+.Acharya{
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: right;
+
 }
 .family {
   display: flex;
@@ -221,7 +229,7 @@ hr {
 .im-family{
     font-size: 18px;
   line-height: 30px;
-  font-family: Poppins-Regular;
+  font-family: Poppins-Medium;
   text-align: justify;
 
 }
@@ -284,7 +292,7 @@ hr {
 
 
   .Fabrication-p{
-    font-size: 16px;
+    /* font-size: 16px; */
       line-height: 30px;
       font-family: Poppins-Regular;
   }
@@ -294,7 +302,7 @@ hr {
     gap: 0;
   }
   .am-padding{
-    padding: 21px 0 21px 0;
+    padding: 0 0 21px 0;
   }
   .est-padding{
     padding: unset;
@@ -329,7 +337,7 @@ hr {
   .founder-left {
     order: 2;
     max-width: none;
-    padding: 15px 0 0 0;
+    padding: 0 0 0 0;
   }
   .founder-flex {
     flex-wrap: wrap;
@@ -339,28 +347,31 @@ hr {
     padding: 50px 0 30px 0;
   }
   .family {
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: block;
+
   }
-  .hr-line {
-    padding: 30px 0 30px 0;
+  hr {
+    /* padding: 30px 0 30px 0; */
+    margin: 30px 0 30px 0;
   }
   .down {
     padding: 0 30px;
   }
   .Head {
-    padding: 0 30px;
+    padding: 0  30px 15px;
   }
   .immense {
-    /* padding: 0px 30px; */
+    padding: 0 0 15px;
   }
   .warm {
-    padding: 0 30px;
+    padding: 0 30px 15px;
   }
   .immensee {
-    padding: 0 30px;
+    padding: 0 30px 15px;
   }
   .im-family{
-    padding: 0 15px;
+    padding:  15px 0;
   }
   .title-purpose {
     padding: 50px 0 30px;
@@ -382,13 +393,16 @@ hr {
   padding: 0 17px;
 }
 .im-family {
-  padding: 0 15px;
+  padding: 0 15px 15px;
 }
   .maintitle {
     font-size: 20px;
   }
   .Among-Alumni {
-    padding: 20px 10px;
+    padding: 0 10px;
+  }
+  .founder-flex{
+    gap: 20px;
   }
   .alumni-p {
 font-size: 16px;
@@ -404,7 +418,7 @@ line-height: 25px;
     padding: 0 10px;
   }
   .aspirants-width{
-    padding: 0;
+    padding: 15px 0 0;
   }
   .esta-width{
     padding: 0 10px;
@@ -421,7 +435,7 @@ line-height: 25px;
     padding: 0 15px;
   }
   .immensee {
-padding: 0 15px;
+padding: 0 15px 15px;
 font-size: 16px;
 line-height: 25px;
   }
@@ -445,6 +459,10 @@ line-height: 25px;
     font-size: 16px;
     text-align: justify;
     line-height: 30px;
+    padding: 0  15px 15px;
+}
+.am-padding{
+  padding: 15px 0  21px 0;
 }
 .title {
   padding: 50px 0 20px 0;
@@ -465,11 +483,17 @@ line-height: 25px;
   font-size: 16px;
   line-height: 30px;
   font-family: Poppins-Regular;
-  padding: 15px 0;
+  padding: 0 0 15px ;
 }
 .immense {
   font-size: 16px;
  
+}
+hr{
+  margin: 15px 0 15px 0;
+}
+.Acharya{
+  text-align: left;
 }
 .title-purpose{
   padding: 50px 0 20px;
