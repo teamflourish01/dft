@@ -151,6 +151,14 @@ li{
     text-decoration: none;
 }
 
+
+@media screen and (max-width:1024px){
+    .link {
+        /* color: white; */
+        padding: 30px 30px;
+    }
+}
+
 @media screen and (max-width:767px){
     .link-flex{ 
         gap: 20px;

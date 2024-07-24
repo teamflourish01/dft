@@ -31,7 +31,7 @@
 .adventure-main {
   max-width: 1320px;
   min-width: 250px;
-
+padding: 0 30px;
   width: 100%;
   /* border: 1px solid red; */
 }
@@ -122,7 +122,7 @@
   height: 294px;
   border-radius: 10px;
 }
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1919px) {
   .width-img {
     display: none;
   }
@@ -146,6 +146,13 @@
   .img-animation{
     padding: 10px 0 0 0;
   }
+  .home-banner {
+    
+    
+ 
+    height: 610px;
+
+}
 }
 
 @media screen and (max-width: 767px) {
