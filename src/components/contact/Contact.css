@@ -104,6 +104,11 @@ textarea.input {
     padding-bottom: 10px;
 }
 
+/* input{
+    border: 0px white;
+    outline: none;
+   
+} */
 
 @media (max-width:1024px) {
     .contact-content {
