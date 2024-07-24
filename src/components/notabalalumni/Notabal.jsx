@@ -24,15 +24,15 @@ function Notabal() {
   return (
     <>
       <div className="notable-container">
-        <div className="title notable-title">
-          <p className="maintitle notabal-title">Notabal Alumni</p>
+        <div className="title">
+          <p className="maintitle">Notabal Alumni</p>
         </div>
-        <ol>
+        <ol className='notable-ol'>
           <div className="notable-card-one">
             <div className="notable-cards">
               <div className='title-cards'>
                 <div className="li-title">
-                  <li>
+                  <li className='li-class'>
                     Mr. Chandresh Makadiya - (Senior VP, GMM pfaudler)
                   </li>
                 </div>
@@ -65,7 +65,7 @@ function Notabal() {
             <div className="notable-cards">
               <div className='title-cards'>
                 <div className="li-title">
-                  <li>
+                  <li className='li-class'>
                     Mr. Gautam Gohil - (Operation Head - Gujrat, Inox India Pvt. Ltd.)
                   </li>
                 </div>
@@ -98,7 +98,7 @@ function Notabal() {
             <div className="notable-cards">
               <div className='title-cards'>
                 <div className="li-title">
-                  <li>
+                  <li className='li-class'>
                     Mr. Haresh Akhja - (Operation Head - Praj Industries Ltd.)                </li>
                 </div>
                 <div
@@ -130,7 +130,7 @@ function Notabal() {
             <div className="notable-cards">
               <div className='title-cards'>
                 <div className="li-title">
-                  <li>
+                  <li className='li-class'>
                     Mr. Dhaval Vora - (SGS Head, Baroda)
                   </li>
                 </div>
@@ -163,7 +163,7 @@ function Notabal() {
             <div className="notable-cards">
               <div className='title-cards'>
                 <div className="li-title">
-                  <li>
+                  <li className='li-class'>
                     Mr. Vipul Chapla
                   </li>
                 </div>

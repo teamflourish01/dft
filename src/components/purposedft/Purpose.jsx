@@ -10,7 +10,7 @@ const Purpose = () => {
         <div className="full-width">
           <div className="main-content-1320">
             <div className="padding-dft"></div>
-            <div className="title">
+            <div className="title-purpose">
               <p className="maintitle">Purpose of DFT Alumni Association</p>
             </div>
             <div className="Among-Alumni">
