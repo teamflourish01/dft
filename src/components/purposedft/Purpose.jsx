@@ -21,7 +21,7 @@ const Purpose = () => {
                   </div>
                   <div className="establish">
                     <div className="para-flex">
-                      <ol>
+                      <ol className="ol-width">
                         <li className="esta-width">
                           To establish network among industries and alumni.
                         </li>
@@ -58,7 +58,7 @@ const Purpose = () => {
                       </p>
                     </div>
                     <div className="among-center">
-                      <ol>
+                      <ol className="ol-width">
                         <li className="esta-width">
                           Organise annual alumni event / meeting which will help
                           the association say connected with alma matter.
@@ -99,7 +99,7 @@ const Purpose = () => {
                       <p className="alumni-p">Alumni & DFT Aspirants</p>
                     </div>
                     <div className="aspirants-width">
-                      <ol>
+                      <ol className="ol-width">
                         <li className="esta-width">
                           Provide technical support, assistance and guidance to
                           DFT aspirates through industry visit, workshop and

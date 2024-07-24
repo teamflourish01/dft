@@ -1,0 +1,94 @@
+import React from "react";
+import "../styles/Footer.css";
+import logo from "../images/logo.svg";
+const Footer = () => {
+  const handleScroll = (e, immediate = false) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+    const headerOffset = 130;
+    const elementPosition =
+      targetElement.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset;
+
+    if (immediate) {
+      window.scrollTo(0, offsetPosition);
+    } else {
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <>
+      <div className="footer-container">
+        <div className="footer">
+          <div className="footer-list">
+            <a href="#home" onClick={handleScroll}>
+              <img src={logo} alt="" srcset="" />
+            </a>
+
+            <div className="list">
+              <li>
+                <a
+                  href="#home"
+                  onClick={(e) => {
+                    handleScroll(e, true);
+                  }}
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  onClick={(e) => {
+                    handleScroll(e, true);
+                  }}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#Product"
+                  onClick={(e) => {
+                    handleScroll(e, true);
+                  }}
+                >
+                  Product
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  onClick={(e) => {
+                    handleScroll(e, true);
+                  }}
+                >
+                  Contact Us
+                </a>
+              </li>
+            </div>
+            <p className="copyright">
+              Copyrights © 2024 Kavlikart All rights reserved.
+            </p>
+            <p className="flourish">
+              {" "}
+              <a href="https://teamflourish.co/" target="_blank">
+                Design & Devloped By:
+                <div>
+                  <span>FLOURISH CREATIONS PVT. LTD.</span>
+                </div>
+              </a>{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;
