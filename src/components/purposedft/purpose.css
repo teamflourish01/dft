@@ -33,17 +33,23 @@
     min-width: 250px;
     margin: 0 auto; */
 }
+
 .among-center {
   max-width: 733px;
   min-width: 250px;
   width: 100%;
   margin: 0 auto;
-  padding: 21px 52px 21px 30px;
+  /* padding: 21px 52px 21px 30px; */
 }
 .among-dft {
   /* height: 272px; */
   border: 1px solid red;
   border-radius: 10px;
+}
+.Fabrication-p{
+  font-size: 18px;
+    line-height: 30px;
+    font-family: Poppins-Regular;
 }
 .among-title {
   text-align: center;
@@ -62,6 +68,12 @@
   width: 100%;
   /* border: 1px solid black; */
   margin: 0 auto;
+}
+.est-padding{
+  padding: 45px 0 0 0;
+}
+.am-padding{
+  padding: 21px 30px;
 }
 .esta-width {
   font-family: Poppins-Regular;
@@ -178,27 +190,33 @@
 }
 hr {
   border: 1px solid #e42326;
+  margin: 65px 0;
 }
 .hr-line {
-  padding: 65px 0 50px 0;
+  /* padding: 65px 0 50px 0; */
 }
 .immense {
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins-Regular;
   text-align: justify;
-  padding: 15px 0;
+  /* padding: 15px 30px; */
 }
 .immensee {
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins-Regular;
   text-align: justify;
+  padding: 0 30px;
 }
 .family {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 30px;
+}
+.down{
+  padding: 0 30px;
 }
 .im-family{
     font-size: 18px;
@@ -247,11 +265,13 @@ hr {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
+  padding: 0 30px;
 }
 .warm {
   font-family: Poppins-Medium;
   font-size: 18px;
   line-height: 30px;
+  padding: 0 30px;
 }
 .amoung-padding {
   padding: 15px 0 0 0;
@@ -261,11 +281,28 @@ hr {
   text-align: center;
 }
 @media screen and (max-width:1024px) {
+
+
+  .Fabrication-p{
+    font-size: 16px;
+      line-height: 30px;
+      font-family: Poppins-Regular;
+  }
   .among-flex {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0;
   }
+  .am-padding{
+    padding: 21px 0 21px 0;
+  }
+  .est-padding{
+    padding: unset;
+  }
+  .red-bullets {
+    list-style-type: none;
+    padding: 0 30px;
+}
   .among-left {
     max-width: none;
   }
@@ -281,17 +318,18 @@ hr {
   }
   .aspirants-width {
     max-width: none;
+    padding: unset;
   }
   .redbullet-padding {
-    padding: 0 20px 10px 20px;
+    /* padding: 0 20px 10px 20px; */
   }
-  ol {
+  .ol-width {
     padding: 25px 23px 0 22px;
   }
   .founder-left {
     order: 2;
     max-width: none;
-    padding: 15px 30px 0 30px;
+    padding: 15px 0 0 0;
   }
   .founder-flex {
     flex-wrap: wrap;
@@ -333,6 +371,19 @@ hr {
   .redbullet-padding {
     padding: 0 0 0 20px;
   }
+  .family{
+    padding: 0 0 0 0;
+  }
+  .est-padding {
+    padding: 15px 0 15px 0;
+}
+.red-bullets {
+  list-style-type: none;
+  padding: 0 17px;
+}
+.im-family {
+  padding: 0 15px;
+}
   .maintitle {
     font-size: 20px;
   }
@@ -346,7 +397,7 @@ line-height: 25px;
   .redbullet-padding{
     padding: 0;
   }
-  ol{
+  .ol-width{
     padding: 0;
   }
   .among-center{

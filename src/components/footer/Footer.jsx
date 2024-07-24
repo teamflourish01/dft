@@ -18,8 +18,10 @@ const Footer = () => {
         <div className="footer-main">
           <div className="under-1320">
             <div className="under-1026">
-              <div className="logoimg">
-                <img src={flogo} alt="" srcSet="" />
+            <div className="logoimg">
+                <Link to="/">
+                  <img src={flogo} alt="DFT Alumni Family Logo" />
+                </Link>
               </div>
               <div className="since">
                 <p>Since : 1983</p>
