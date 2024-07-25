@@ -6,12 +6,12 @@
 }
 
 .vision-mission-card-height {
-    /* height: 200px; */
     height: 352px;
-    /* margin: 90px 0 0; */
+    /* min-height: 352px; */
+    /* max-height: 412px; */
+    height: 100%;
     background-color: #fff;
     display: flex;
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: end;
     gap: 20px;
@@ -49,6 +49,7 @@
     text-align: center;
     color: black;
     margin: 80px auto 15px;
+    text-transform: uppercase;
 }
 
 .vision-mission-span-text {
@@ -57,70 +58,115 @@
     line-height: 30px;
     text-align: center;
     padding: 0 10px;
+    max-width: 635px;
+    min-width: 200px;
 }
 
+.mission {
+    /* padding-top: 50px; */
+}
+.vision-height{
+    /* padding-top: 50px; */
+}
 
-@media (max-width:1024px){
-    .vision-mission-container{
+@media (max-width:1024px) {
+    .vision-height{
+        padding-top: 60px;
+    }
+    .mission {
+        padding-top: 50px;
+    }
+    .vision-mission-container {
         flex-direction: column;
         padding: 50px 30px 0;
-        gap:20px
+        gap: 20px
     }
+    .vision-mission-span-text {
+        max-width: none;
+        min-width: none;
+    }
+
     .vision-mission-card {
         max-width: 1008px;
         min-width: 200px;
         width: 100%;
     }
-}
-@media (max-width:767px){
-    .vision-mission-container{
-        gap: 0;
-        padding: 0 10px;
+
+    .vision-mission-span-text {
+        max-width: none;
+        font-size: 16px;
     }
+
+}
+
+@media (max-width:767px) {
+    .vision-mission-container {
+        padding: 0 10px;
+        gap: 30px;
+    }
+
     .vision-mission-card {
         height: auto;
     }
+
     .vision-mission-span-text {
         font-size: 16px;
         padding: 0 10px 10px;
     }
+
     .vision-mission-card-text {
         margin: 65px auto 15px;
     }
+
     .vision-mission-card-height {
-        padding: 50px 0 0;
         gap: 50px;
-        height: 322px;
-    }
-}
-@media (max-width:663px){
-    .vision-mission-card-height {
-        height: 355px;
+        height: 270px;
     }
 }
 
-@media (max-width:485px){
+@media(max-width:697px) {
     .vision-mission-card-height {
-        height: 385px;
+        height: 300px;
     }
 }
-@media (max-width:413px){
+
+@media (max-width:533px) {
     .vision-mission-card-height {
-        height: 415px;
+        height: 330px;
     }
 }
-@media (max-width:365px){
+
+@media (max-width:442px) {
     .vision-mission-card-height {
-        height: 445px;
+        height: 360px;
     }
 }
-@media (max-width:317px){
+
+@media (max-width:380px) {
     .vision-mission-card-height {
-        height: 475px;
+        height: 390px;
     }
 }
-@media (max-width:286px){
+
+@media (max-width:330px) {
     .vision-mission-card-height {
-        height: 505px;
+        height: 420px;
+    }
+}
+
+/* @media (max-width:317px) {
+    .vision-mission-card-height {
+        height: 420px;
+    }
+} */
+
+@media (max-width:297px) {
+    .vision-mission-card-height {
+        height: 450px;
+    }
+}
+@media (max-width:268px) {
+    .vision-mission-card-height {
+        height: 480px;
     }
 }
