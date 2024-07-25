@@ -44,18 +44,21 @@
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
-    margin: 20px 40px 0 25px;
+    /* margin: 20px 40px 0 25px; */
+    margin: 20px;
 }
 
 @media (max-width:767px) {
     .title-cards {
         margin: 16px 30px 15px 40px;
         font-size: 16px;
+        gap: 35px;
     }
 
     .icon-down-arrow {
         position: relative;
-        bottom: 15px;
+        /* bottom: 15px; */
+        bottom: 0;
     }
 
     .notabal-card-content {

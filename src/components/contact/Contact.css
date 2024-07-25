@@ -110,6 +110,14 @@ input {
 .icon-contact {
     padding-bottom: 10px;
 }
+
+
+/* input{
+    border: 0px white;
+    outline: none;
+   
+} */
+
 .contact-decoration{
     text-decoration: none;
 }

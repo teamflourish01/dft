@@ -6,12 +6,12 @@ function VisionMission() {
     return (
         <>
         <div className="vision-mission-container">
-            <div className="vision-mission-card-height">
+            <div className="vision-mission-card-height mission">
                 <div className="vision-mission-card">
                     <div className="vision-mission-card-img">
                         <img src={mission} alt="mission-one-img" />
                     </div>
-                    <p className='vision-mission-card-text'>OUR MISION</p>
+                    <p className='vision-mission-card-text'>our mission</p>
                         <p className='vision-mission-span-text'>
                             To create a lifelong and worldwide community 
                             of DFT alumni through increased opportunities 
@@ -21,12 +21,12 @@ function VisionMission() {
                         </p>
                 </div>
             </div>
-            <div className="vision-mission-card-height">
+            <div className="vision-mission-card-height vision-height">
                 <div className="vision-mission-card">
                     <div className="vision-mission-card-img">
                         <img src={vision} alt="mission-one-img" />
                     </div>
-                    <p className='vision-mission-card-text'>OUR MISION</p>
+                    <p className='vision-mission-card-text'>our vision</p>
                         <p className='vision-mission-span-text'>
                         To promote good will and sense of pride to alumni 
                         and students. To help and support alumni to develop 
