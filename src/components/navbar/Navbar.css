@@ -3,10 +3,7 @@
     background-color: #fff;
     /* box-shadow: 0px 0px 4px 0px #00000040; */
 }
-.box-shadow{
-    box-shadow: 0px 0px 4px 0px red;
 
-}
 .main-content-1320 {
     max-width: 1320px;
     min-width: 200px;
@@ -21,6 +18,10 @@
     background-color: #fff;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
 
+}
+.shadow-full{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+    
 }
 
 .inner-navbar {

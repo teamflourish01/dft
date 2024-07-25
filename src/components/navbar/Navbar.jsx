@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <section>
+    <section className="shadow-full">
       <div className='full-width'>
     
         <div className="main-content-1320">
