@@ -24,7 +24,7 @@ const Newsletter = () => {
                   </div>
                   <div className="news-containers">20/10/2023</div>
                   <div className="downlod-btn">
-                    <Button label="downlod" />
+                    <Button label="download" />
                   </div>
                 </div>
 
@@ -34,7 +34,7 @@ const Newsletter = () => {
                   </div>
                   <div className="news-containers">20/10/2023</div>
                   <div className="downlod-btn">
-                    <Button label="downlod" />
+                    <Button label="download" />
                   </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Newsletter = () => {
                   </div>
                   <div className="news-containers">20/10/2023</div>
                   <div className="downlod-btn">
-                    <Button label="downlod" />
+                    <Button label="download" />
                   </div>
                 </div>
 

@@ -40,6 +40,9 @@
     height: 533px;
     background-color: #E42326;
     border-bottom-left-radius: 139px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
 }
 
 .about-img {
@@ -53,6 +56,9 @@
     left: 35px;
     object-fit: cover;
     border-bottom-left-radius: 139px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
 }
 
 .about-txt {

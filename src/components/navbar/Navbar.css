@@ -63,6 +63,9 @@
 .hamburger-menu {
     display: none;
 }
+.nav-link.active {
+    color: #E42326;
+  }
 
 @media (max-width: 1024px) {
     .inner-navbar {

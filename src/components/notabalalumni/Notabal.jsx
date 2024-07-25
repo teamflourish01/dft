@@ -25,7 +25,7 @@ function Notabal() {
     <>
       <div className="notable-container">
         <div className="title">
-          <p className="maintitle">Notabal Alumni</p>
+          <p className="maintitle">Notable Alumni</p>
         </div>
         <ol className='notable-ol'>
           <div className="notable-card-one">
