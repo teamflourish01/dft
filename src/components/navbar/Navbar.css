@@ -1,7 +1,7 @@
 .full-width {
     width: 100%;
     background-color: #fff;
-}
+} 
 
 .main-content-1320 {
     max-width: 1320px;
@@ -9,11 +9,17 @@
     width: 100%;
     /* border: 1px solid black; */
     margin: 0 auto;
+
 }
 
+/* .inner-navbar {
+    display: block;
+    padding: 9px 30px;
+
+} */
 .inner-navbar {
     display: block;
-    padding: 20px 30px;
+    padding: 9px 30px;
 }
 
 .navigation-bar {

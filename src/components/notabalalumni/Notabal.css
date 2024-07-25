@@ -55,7 +55,8 @@
 
     .icon-down-arrow {
         position: relative;
-        bottom: 15px;
+        /* bottom: 15px; */
+        bottom: 0;
     }
 
     .notabal-card-content {
