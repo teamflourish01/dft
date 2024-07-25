@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="f-link">
-  <p>All Rights Reserved DFT Alumni Family | Developed By: 
+  <p>All Rights Reserved DFT Alumni Family | Developed By : 
     <a href="https://teamflourish.co/" target="_blank" rel="noopener noreferrer" className="devlopedby">
       Flourish Creations Private Limited
     </a>

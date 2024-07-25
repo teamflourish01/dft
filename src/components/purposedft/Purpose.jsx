@@ -278,7 +278,7 @@ const Purpose = () => {
               lasting blossom. GOD bless you all and invite you all to visit our
               beloved institute and the department at your convenience.
             </p>
-            <p className="Head">
+            <p className="Head-p">
               Samirbhai Y. Merchant Head of Department (I/C) Fabrication
               Technology Department Sir Bhavsinhji Polytechnic institute,
               Bhavnagr - 364001
@@ -303,7 +303,7 @@ const Purpose = () => {
             <p className="immensee">With the help of the alumni support and our branch unique one year ON Job trainee help the students to their placement and I am happy to announce that this year 2023 pass out students got the 100 % placement.</p>
             <p className="immensee">Eger to meet you all in alumni meet.</p>
             <p className="warm">With warm regards</p>
-            <p className="Head">Nilesh M. Bhangale Lecturer in Fabrication Technology Department Training and Placement Officer Sir Bhavsinhji Polytechnic Institute Bhavnagar Polytechnic institute, Bhavnagr - 364001</p>
+            <p className="Head-p">Nilesh M. Bhangale Lecturer in Fabrication Technology Department Training and Placement Officer Sir Bhavsinhji Polytechnic Institute Bhavnagar Polytechnic institute, Bhavnagr - 364001</p>
           </div>
         </div>
       </section>

@@ -98,6 +98,11 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
+
+    <section className="shadow-full">
+      <div className='full-width'>
+    
+
     <section>
       <div className='full-width shadow-navbar'>
         <div className="main-content-1320">

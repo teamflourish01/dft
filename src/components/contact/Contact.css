@@ -104,6 +104,7 @@ input {
 
 .phone-number {
     padding: 20px 0;
+    
 }
 
 .icon-contact {
@@ -189,6 +190,12 @@ input {
             /* width: 192px; */
             /* height: 135px; */
             font-size: 14px;
+    }
+    .address-land-marks{
+        font-size: 14px;
+        max-width: 147px;
+        min-width: 50px;
+        width: 100%;
     }
 
 }
