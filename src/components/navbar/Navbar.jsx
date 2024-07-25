@@ -15,6 +15,7 @@ const Navbar = () => {
   return (
     <section>
       <div className='full-width'>
+    
         <div className="main-content-1320">
           <div className="padding-dft">
 
