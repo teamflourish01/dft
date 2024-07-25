@@ -1,6 +1,8 @@
 .full-width {
     width: 100%;
     background-color: #fff;
+} 
+
     /* box-shadow: 0px 0px 4px 0px #00000040; */
 }
 .box-shadow{
@@ -23,10 +25,14 @@
 
 }
 
-.inner-navbar {
+/* .inner-navbar {
     display: block;
     padding: 9px 30px;
 
+} */
+.inner-navbar {
+    display: block;
+    padding: 9px 30px;
 }
 
 .navigation-bar {
