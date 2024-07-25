@@ -3,12 +3,25 @@
     background-color: #fff;
 } 
 
+    /* box-shadow: 0px 0px 4px 0px #00000040; */
+}
+.box-shadow{
+    box-shadow: 0px 0px 4px 0px red;
+
+}
 .main-content-1320 {
     max-width: 1320px;
     min-width: 200px;
     width: 100%;
+    
     /* border: 1px solid black; */
     margin: 0 auto;
+    
+}
+.main-navbar{
+    /* width: 100%; */
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
 
 }
 

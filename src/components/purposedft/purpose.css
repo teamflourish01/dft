@@ -273,7 +273,7 @@ hr {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-  padding: 0 30px;
+  padding: 0 0 0 30px;
 }
 .warm {
   font-family: Poppins-Medium;

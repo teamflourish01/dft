@@ -45,7 +45,7 @@ function Notabal() {
               </div>
               {expandedIndex === 0 && (
                 <div className="notabal-card-content">
-                  <p data-aos="fade-up-right">
+                  <p data-aos="fade-up">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don't look even slightly believable.
@@ -78,7 +78,7 @@ function Notabal() {
               </div>
               {expandedIndex === 1 && (
                 <div className="notabal-card-content">
-                  <p data-aos="fade-up-right">
+                  <p data-aos="fade-up">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don't look even slightly believable.
@@ -110,7 +110,7 @@ function Notabal() {
               </div>
               {expandedIndex === 2 && (
                 <div className="notabal-card-content">
-                  <p data-aos="fade-up-right">
+                  <p data-aos="fade-up">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don't look even slightly believable.
@@ -143,7 +143,7 @@ function Notabal() {
               </div>
               {expandedIndex === 3 && (
                 <div className="notabal-card-content">
-                  <p data-aos="fade-up-right">
+                  <p data-aos="fade-up">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don't look even slightly believable.
@@ -176,7 +176,7 @@ function Notabal() {
               </div>
               {expandedIndex === 4 && (
                 <div className="notabal-card-content">
-                  <p data-aos="fade-up-right">
+                  <p data-aos="fade-up">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don't look even slightly believable.
