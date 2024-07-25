@@ -200,6 +200,7 @@ hr {
   line-height: 30px;
   font-family: Poppins-Regular;
   text-align: justify;
+  text-justify: inter-word;
   /* padding: 15px 30px; */
   padding: 0 0 15px;
 }

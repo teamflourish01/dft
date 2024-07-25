@@ -99,8 +99,7 @@ const Navbar = () => {
 
   return (
 
-    <section className="shadow-full">
-      <div className='full-width'>
+  
     
 
     <section>
