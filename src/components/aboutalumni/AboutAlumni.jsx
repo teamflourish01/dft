@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import aboutImg from '../../images/about.png';
+import aboutImg from '../../images/aboutfullimage.png';
 import '../../components/homesectiontwo/HomeSectionTwo.css';
 import Button from '../button/Button.jsx';
 import aboutBg from '../../images/aboutBg.png';

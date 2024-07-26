@@ -16,6 +16,10 @@ const Footer = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
+  const isActive = (path) => {
+    return location.pathname === path ? 'active-link' : '';
+  };
+
   return (
     <>
       {/* <div className="fimg"><img src={fimg} alt="" srcset="" className="fimg-end" /> </div> */}
@@ -69,6 +73,7 @@ rel="noopener noreferrer"
               </div>
               <div className="link">
                 <div className="link-flex">
+
                   <Link to="/" className="footer-link">
                     <li className="style">Home</li>
                   </Link>
@@ -109,6 +114,7 @@ rel="noopener noreferrer"
                     rel="noopener noreferrer"
                     className="devlopedby"
                   >
+
                     Flourish Creations Private Limited
                   </a>
                 </p>
