@@ -107,7 +107,8 @@
   background-size: cover;
   object-fit: cover;
   border-radius: 10px;
-  
+  box-shadow: 0px 0px 5px 0px #00000040;
+  margin: 0 0 3px;
  
   /* background-color: brown; */
 
@@ -121,15 +122,17 @@
 }
 
 .full-widths {
-  background-size: cover;
-  width: 122px;
+  /* background-size: cover; */
+  /* width: 122px; */
   background-image: url("../../images/bright.png");
   padding: 0px 0 0 0;
-  height: 254px;
-  top: 140px;
+  /* height: 254px; */
+  /* top: 140px; */
   position: relative;
+  background-position: right ;
   background-repeat: no-repeat;
 }
+
 
 .dft-image {
   max-width: 334px;
@@ -138,6 +141,8 @@
   object-fit: cover;
   height: 294px;
   border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+
 }
 
 .welcome-img {
@@ -147,6 +152,8 @@
   object-fit: cover;
   height: 294px;
   border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+
 }
 
 .adv-right{
@@ -157,11 +164,11 @@
 
 @media screen and (max-width: 1919px) {
   .width-img {
-    display: none;
+    background-image: none;
   }
 
   .full-widths {
-    display: none;
+    background-image: none;
   }
 }
 

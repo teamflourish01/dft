@@ -4,42 +4,42 @@ import '../../components/alumnicommitee/AlumniCommitee.css';
 import commitee2 from '../../images/commiteeTwo.png';
 import commitee3 from '../../images/commiteeThree.png';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 function AlumniCommitee() {
  
-    const sliderSettings = {
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: false,
-                    arrows: false,
-                }
-            }
-        ]
-    };
+    // const sliderSettings = {
+    //     dots: false,
+    //     arrows: false,
+    //     infinite: true,
+    //     speed: 1000,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 1000,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 1,
+    //                 infinite: true,
+    //                 dots: false,
+    //                 arrows: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 767,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 dots: false,
+    //                 arrows: false,
+    //             }
+    //         }
+    //     ]
+    // };
     return (
         <>
          <div className="title">
@@ -47,19 +47,20 @@ function AlumniCommitee() {
                 </div>
             <div className="alumni-commitee-container">
                 <div className="alumni-commitee-cards">
-                <Slider {...sliderSettings}>
-                    <div className="alumni-card-height">
-                    <div className="alumni-commitee-card">
+<div className="alumni-flex">
+
+
+                <div className="alumni-commitee-card">
                         <div className="alumni-commitee-card-img">
                             <img src={commitee1} alt="alumni-commitee-card-one-img" />
                         </div>
                         <p className='alumni-commitee-card-text uppercase'>Mr. haresh mandaliya</p>
                         <p className='alumni-commitee-span-text'>President</p>
-                        <p className='alumni-commitee-span-text'>DFT Batch (1983)</p>
+                        <p className='alumni-commitee-span-texts'>DFT Batch (1983)</p>
                     </div>
-                    </div>
-                    <div className="alumni-card-height">
-                    <div className="alumni-commitee-card">
+
+
+                <div className="alumni-commitee-card">
                         <div className="alumni-commitee-card-img">
                             <img src={commitee2} alt="alumni-commitee-card-one-img" />
                         </div>
@@ -68,8 +69,8 @@ function AlumniCommitee() {
                         </p>
                         <p className='alumni-commitee-span-text'>DFT Batch (1991)</p>
                     </div>
-                    </div>
-                    <div className="alumni-card-height">
+
+
                     <div className="alumni-commitee-card">
                         <div className="alumni-commitee-card-img">
                             <img src={commitee3} alt="alumni-commitee-card-one-img" />
@@ -79,16 +80,9 @@ function AlumniCommitee() {
                             Treasurer</p>
                         <p className='alumni-commitee-span-text'>DFT Batch (1989)</p>
                     </div>
+
+
                     </div>
-                    </Slider>
-                    {/* <div className="alumni-commitee-card">
-                        <div className="alumni-commitee-card-img">
-                            <img src={commitee1} alt="alumni-commitee-card-one-img" />
-                        </div>
-                        <p className='alumni-commitee-card-text uppercase'>Mr. haresh mandaliya</p>
-                        <p className='alumni-commitee-span-text'>President</p>
-                        <p className='alumni-commitee-span-text'>DFT Batch (1983)</p>
-                    </div> */}
                 </div>
             </div>
         </>
