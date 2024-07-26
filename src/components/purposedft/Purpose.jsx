@@ -103,6 +103,7 @@ const Purpose = () => {
                     </div>
                     <div className="aspirants-width">
                       <ol className="ol-width">
+                      <div className="ol-padding">
                         <li className="esta-width">
                           Provide technical support, assistance and guidance to
                           DFT aspirates through industry visit, workshop and
@@ -118,6 +119,7 @@ const Purpose = () => {
                           Motivate the meritorius student by felicitating with
                           gold medals to the final year students.
                         </li>
+                        </div>
                       </ol>
                     </div>
                   </div>
@@ -155,7 +157,7 @@ const Purpose = () => {
                     Technology is at the heart of what we do. We keep up with
                     the latest advancements, ensuring we deliver cutting-edge
                     solutions to our clients. We as a Fabrication family members
-                    I quote "Never say CHALSE to quality"
+                    I quote<span className="quality"> "Never say CHALSE to quality"</span> 
                   </p>
                   <p className="Fabrication">
                     Learning is a lifelong journey, and we're committed to it.
@@ -166,8 +168,8 @@ const Purpose = () => {
                   </p>
                   <p className="Fabrication-p">
                     oin us as we embark on an exciting journey of growth,
-                    innovation, and personal strength because सर्व के शुभ में
-                    स्व शुभ समाया हुआ है। Together, we'll shape a brighter
+                    innovation, and personal strength because <span className="quality">सर्व के शुभ में
+                    स्व शुभ समाया हुआ है। </span>Together, we'll shape a brighter
                     future of Fabrication industries.
                   </p>
 

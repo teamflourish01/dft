@@ -234,6 +234,17 @@ hr {
   text-align: justify;
 
 }
+.ol-padding{
+  padding: 10px 0 0 0;
+}
+.quality{
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Poppins-SemiBold;
+  font-weight: 600;
+
+  
+}
 .pandya {
   font-size: 18px;
   line-height: 30px;
@@ -390,6 +401,10 @@ hr {
 @media screen and (max-width: 767px) {
   .redbullet-padding {
     padding: 0 0 0 20px;
+  }
+  .quality{
+    font-size: 16px;
+    line-height: 25px;
   }
   .family{
     padding: 0 0 0 0;
