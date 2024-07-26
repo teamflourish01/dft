@@ -71,7 +71,7 @@ rel="noopener noreferrer"
                 <img src={youtube} alt="" srcset="" />
                 </a>
               </div>
-              <div className="link">
+              {/* <div className="link">
                 <div className="link-flex">
 
                   <Link to="/" className="footer-link">
@@ -103,8 +103,29 @@ rel="noopener noreferrer"
                     </Link>
                   </li>
                 </div>
+              </div> */}
+              <div className="link">
+                <div className="link-flex">
+                  <li className={isActive('/')}>
+                    <Link to="/" className="footer-link">Home</Link>
+                  </li>
+                  <li className={isActive('/about')}>
+                    <Link to="/about" className="nav-link">About DFT Alumni</Link>
+                  </li>
+                  <li className={isActive('/newsletter')}>
+                    <Link to="/newsletter" className="nav-link">Newsletter</Link>
+                  </li>
+                  <li className={isActive('/notabalalumni')}>
+                    <Link to="/notabalalumni" className="nav-link">Notable Alumni</Link>
+                  </li>
+                  <li className={isActive('/Gallerypage')}>
+                    <Link to="/Gallerypage" className="nav-link">Gallery</Link>
+                  </li>
+                  <li className={isActive('/contactus')}  >
+                    <Link to="/contactus" className="nav-link">Contact Us</Link>
+                  </li>
+                </div>
               </div>
-
               <div className="f-link">
                 <p>
                   All Rights Reserved DFT Alumni Family | Developed By :
