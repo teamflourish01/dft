@@ -69,6 +69,7 @@ textarea.input {
 .btn-contact {
     margin-left: 15px;
     padding-top: 30px;
+    text-align: center;
 }
 .contact-address {
     max-width: 531px;

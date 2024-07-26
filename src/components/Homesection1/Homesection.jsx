@@ -19,7 +19,7 @@ const Homesection = () => {
       <section>
         <div className="full-width">
         <div className="width-img" data-aos="slide-right"></div>
-
+        <div className="full-widths" data-aos="fade-left">
           <div className="content-flex">
             <div className="main-content-1320">
               <div className="padding-dft">
@@ -58,10 +58,9 @@ const Homesection = () => {
                 </div>
               </div>
             </div>
-            <div className="full-widths" data-aos="fade-left">
-              {/* <img src={bright} alt="Bright" /> */}
+            
             </div>
-          </div>
+            </div>
         </div>
       </section>
     </>
