@@ -2,8 +2,12 @@
     width: 100%;
     background-color: #fff;
 }
-
 .shadow-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
     /* width: 100%; */
     /* background-color: #fff; */
     /* margin-bottom: 50px; */
