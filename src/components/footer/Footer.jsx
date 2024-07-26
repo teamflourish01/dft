@@ -30,21 +30,21 @@ const Footer = () => {
               <div className="link">
                 <div className="link-flex">
                   <Link to="/" className="footer-link">
-                    <li>Home</li>
+                    <li className="style">Home</li>
                   </Link>
-                  <li>
+                  <li className="style">
                     <Link to="/about" className="nav-link">About DFT Alumni</Link>
                   </li>
-                  <li>
+                  <li className="style">
                     <Link to="/newsletter" className="nav-link">Newsletter</Link>
                   </li>
-                  <li>
+                  <li className="style">
                     <Link to="/notabalalumni" className="nav-link">Notable Alumni</Link>
                   </li>
-                  <li>
+                  <li className="style">
                     <Link to="/Gallerypage" className="nav-link">Gallery</Link>
                   </li>
-                  <li>
+                  <li className="style">
                     <Link to="/contactus" className="nav-link">Contact Us</Link>
                   </li>
                 </div>
