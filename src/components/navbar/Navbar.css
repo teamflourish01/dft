@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     z-index: 1000;
     /* width: 100%; */
     /* background-color: #fff; */
@@ -33,9 +33,13 @@
 }
 
 .navigation-bar {
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 80px;
 }
 
 .navigation-bar li {

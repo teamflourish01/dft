@@ -155,7 +155,7 @@ li {
   text-decoration: none;
   padding: 0 0 0 10px;
 }
-.style {
+.link {
   font-size: 18px;
   font-family: Poppins-SemiBold;
   line-height: 27px;
@@ -163,6 +163,7 @@ li {
 }
 .active-link {
     color:#E42326 ;
+    
   }
 
 @media screen and (max-width: 1024px) {
