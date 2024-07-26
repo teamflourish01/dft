@@ -44,8 +44,7 @@
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
-    /* margin: 20px 40px 0 25px; */
-    margin: 20px;
+    margin: 0 20px;
 }
 
 @media (max-width:767px) {
@@ -78,3 +77,131 @@
         margin: 50px 0 20px;
     }
 }
+
+
+/* .notabal-card-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.notable-small-img-container  {
+    width: 200px;
+    padding: 20px 0 0;
+    align-items: left;
+
+}
+
+.notable-small-img-background {
+    position: relative;
+    width: 200px;
+    height: 270px;
+    background-color: #E42326;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.notable-small-img {
+    position: absolute;
+    width: 200px;
+    Height: 270px;
+    bottom: 10px;
+    left: 10px;
+    object-fit: cover;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.person-detail-desc{
+    width: 75%;
+}
+.next-div{
+font-family: Poppins-Regular;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+margin: 0 20px ;
+} */
+
+
+.notabal-card-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .notable-small-img-container {
+    width: 200px;
+    padding: 20px 0 0;
+    align-items: left;
+  }
+  
+  .notable-small-img-background {
+    position: relative;
+    width: 200px;
+    height: 270px;
+    background-color: #E42326;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  
+  .notable-small-img {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 10px;
+    left: 10px;
+    object-fit: cover;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  
+  .person-detail-desc {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-break: break-word; /* Ensures long words break properly */
+  }
+  .notabal-card-content-text{
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0 20px;
+  }
+
+
+  .first-text {
+    /* width: 75%; */
+    max-height: 270px; /* Adjust the height as needed */
+    /* overflow: hidden; */
+    position: relative;
+  }
+  
+  .person-detail-desc::after {
+    content: '...'; /* Adds ellipsis to indicate there is more text */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px;
+    background: white;
+  }
+  .responsive-text{
+    display: block;
+  }
+
+  @media (max-width:767px) {
+    .responsive-text{
+        display: none;
+      }
+  }

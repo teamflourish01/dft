@@ -11,6 +11,10 @@ const Footer = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
+  const isActive = (path) => {
+    return location.pathname === path ? 'active-link' : '';
+  };
+
   return (
     <>
       {/* <div className="fimg"><img src={fimg} alt="" srcset="" className="fimg-end" /> </div> */}
@@ -18,7 +22,7 @@ const Footer = () => {
         <div className="footer-main">
           <div className="under-1320">
             <div className="under-1026">
-            <div className="logoimg">
+              <div className="logoimg">
                 <Link to="/">
                   <img src={flogo} alt="DFT Alumni Family Logo" />
                 </Link>
@@ -29,34 +33,33 @@ const Footer = () => {
               </div>
               <div className="link">
                 <div className="link-flex">
-                  <Link to="/" className="footer-link">
-                    <li className="style">Home</li>
-                  </Link>
-                  <li className="style">
+                  <li className={isActive('/')}>
+                    <Link to="/" className="footer-link">Home</Link>
+                  </li>
+                  <li className={isActive('/about')}>
                     <Link to="/about" className="nav-link">About DFT Alumni</Link>
                   </li>
-                  <li className="style">
+                  <li className={isActive('/newsletter')}>
                     <Link to="/newsletter" className="nav-link">Newsletter</Link>
                   </li>
-                  <li className="style">
+                  <li className={isActive('/notabalalumni')}>
                     <Link to="/notabalalumni" className="nav-link">Notable Alumni</Link>
                   </li>
-                  <li className="style">
+                  <li className={isActive('/Gallerypage')}>
                     <Link to="/Gallerypage" className="nav-link">Gallery</Link>
                   </li>
-                  <li className="style">
+                  <li className={isActive('/contactus')}>
                     <Link to="/contactus" className="nav-link">Contact Us</Link>
                   </li>
                 </div>
               </div>
               <div className="f-link">
-  <p>All Rights Reserved DFT Alumni Family | Developed By : 
-    <a href="https://teamflourish.co/" target="_blank" rel="noopener noreferrer" className="devlopedby">
-      Flourish Creations Private Limited
-    </a>
-  </p>
-</div>
-
+                <p>All Rights Reserved DFT Alumni Family | Developed By : 
+                  <a href="https://teamflourish.co/" target="_blank" rel="noopener noreferrer" className="devlopedby">
+                    Flourish Creations Private Limited
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

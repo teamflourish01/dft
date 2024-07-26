@@ -162,19 +162,24 @@
 .founder-img-bg {
     height: 405.6px;
     width: 304.55px;
-    width: 100%;
+    /* width: 100%; */
+    /* width: 95%; */
     margin-top: 52px;
     position: relative;
     background-color: #e42326;
-    border-bottom-right-radius: 180px;
+    /* border-bottom-right-radius: 180px; */
+    border-bottom-right-radius: 136px;
+
   
 }
 .founder-img {
     width: 312px;
     height: 395px;
     position: absolute;
-    right: 46px;
-    bottom: 36px;
+    /* right: 46px; */
+    right: 31px;
+    /* bottom: 36px; */
+    bottom: 31px;
     object-fit: cover;
     border-bottom-right-radius: 120px;
 }
