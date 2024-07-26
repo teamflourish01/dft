@@ -8,7 +8,7 @@ function NotabalAlumni() {
     <>
       <section className='notabal-alumni'>
         <div className='full-width'>
-          <Banner currentTabName="Notabal Alumni" />
+          <Banner currentTabName="Notable Alumni" />
           <div className="main-content-1320">
             <div className="padding-dft">
               <Notabal />

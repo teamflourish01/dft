@@ -23,7 +23,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Routes>
+      <div className="navbar-margin">
+        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/newsletter' element={<News/>}/>
@@ -34,6 +35,7 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>}/>
 
       </Routes>
+      </div>
       <Footer/>
     </div>
   );
