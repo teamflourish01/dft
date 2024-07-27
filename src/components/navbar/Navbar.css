@@ -2,15 +2,14 @@
     width: 100%;
     background-color: #fff;
 }
-.shadow-navbar{
+
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
-    /* padding: 10px 0; */
-    z-index: 1000;
-    /* width: 100%; */
-    /* background-color: #fff; */
-    /* margin-bottom: 50px; */
+    z-index: 20;
     margin: 0 0 1px;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -22,24 +21,16 @@
     /* border: 1px solid black; */
     margin: 0 auto;
 }
-.shadow-full{
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
-    
-}
 
 .inner-navbar {
     display: block;
-    padding: 9px 30px;
+    padding: 20px;
 }
 
 .navigation-bar {
-    max-width: 1320px;
-    min-width: 200px;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 80px;
 }
 
 .navigation-bar li {
@@ -53,6 +44,7 @@
     line-height: 27px;
     color: black;
 }
+
 .navigation-bar li a:hover {
     color: #E42326;
     cursor: pointer;
@@ -80,7 +72,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 30px;
+        padding: 20px;
     }
 
     .hamburger-menu {
@@ -97,7 +89,8 @@
         align-items: flex-start;
         width: 100%;
         position: absolute;
-        top: 144px; /* Adjust this value based on your navbar height */
+        top: 140px;
+        /* Adjust this value based on your navbar height */
         left: 0;
         background-color: #fff;
         z-index: 1;
@@ -107,6 +100,7 @@
 
     .navigation-bar.open {
         display: flex;
+        position: fixed;
     }
 
     .navigation-bar li {

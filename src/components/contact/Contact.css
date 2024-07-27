@@ -129,7 +129,9 @@ input {
 .icon-contact {
     padding-bottom: 10px;
 }
-
+textarea{
+    resize: none;
+}
 
 /* input{
     border: 0px white;

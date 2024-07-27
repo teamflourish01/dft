@@ -7,3 +7,16 @@
 .navbar-margin{
   padding: 121px 0 0;
 }
+
+
+@media (max-width:1024px){
+  .navbar-margin{
+    padding: 142px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-margin {
+      padding: 142px 0 0;
+  }
+}
