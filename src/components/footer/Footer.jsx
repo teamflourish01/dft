@@ -17,7 +17,7 @@ const Footer = () => {
   }, [location]);
 
   const isActive = (path) => {
-    return location.pathname === path ? 'active-link' : '';
+    return location.pathname === path ? "active-link" : "";
   };
 
   return (
@@ -37,9 +37,10 @@ const Footer = () => {
                 <p>DFT Alumni Family, Bhavnagar</p>
               </div>
               <div className="link-icons">
-                <a>
-                  <img src={whatapp} alt="" srcset="" />
-                </a>
+              <a href="https://wa.me/7016141186" target="_blank" rel="noopener noreferrer">
+  <img src={whatapp} alt="WhatsApp" />
+</a>
+
 
                 <a
                   href="https://www.instagram.com/dftalumnifamily/"
@@ -63,12 +64,12 @@ const Footer = () => {
                 >
                   <img src={linkdin} alt="" srcset="" />
                 </a>
-<a
-href="https://www.youtube.com/@DFTAlumniFamily"
-target="_blank"
-rel="noopener noreferrer"
->
-                <img src={youtube} alt="" srcset="" />
+                <a
+                  href="https://www.youtube.com/@DFTAlumniFamily"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={youtube} alt="" srcset="" />
                 </a>
               </div>
               {/* <div className="link">
@@ -106,23 +107,35 @@ rel="noopener noreferrer"
               </div> */}
               <div className="link">
                 <div className="link-flex">
-                  <li className={isActive('/')}>
-                    <Link to="/" className="footer-link">Home</Link>
+                  <li className={isActive("/")}>
+                    <Link to="/" className="footer-link">
+                      Home
+                    </Link>
                   </li>
-                  <li className={isActive('/about')}>
-                    <Link to="/about" className="nav-link">About DFT Alumni</Link>
+                  <li className={isActive("/about")}>
+                    <Link to="/about" className="nav-link">
+                      About DFT Alumni
+                    </Link>
                   </li>
-                  <li className={isActive('/newsletter')}>
-                    <Link to="/newsletter" className="nav-link">Newsletter</Link>
+                  <li className={isActive("/newsletter")}>
+                    <Link to="/newsletter" className="nav-link">
+                      Newsletter
+                    </Link>
                   </li>
-                  <li className={isActive('/notabalalumni')}>
-                    <Link to="/notabalalumni" className="nav-link">Notable Alumni</Link>
+                  <li className={isActive("/notabalalumni")}>
+                    <Link to="/notabalalumni" className="nav-link">
+                      Notable Alumni
+                    </Link>
                   </li>
-                  <li className={isActive('/Gallerypage')}>
-                    <Link to="/Gallerypage" className="nav-link">Gallery</Link>
+                  <li className={isActive("/Gallerypage")}>
+                    <Link to="/Gallerypage" className="nav-link">
+                      Gallery
+                    </Link>
                   </li>
-                  <li className={isActive('/contactus')}  >
-                    <Link to="/contactus" className="nav-link">Contact Us</Link>
+                  <li className={isActive("/contactus")}>
+                    <Link to="/contactus" className="nav-link">
+                      Contact Us
+                    </Link>
                   </li>
                 </div>
               </div>
@@ -135,7 +148,6 @@ rel="noopener noreferrer"
                     rel="noopener noreferrer"
                     className="devlopedby"
                   >
-
                     Flourish Creations Private Limited
                   </a>
                 </p>
