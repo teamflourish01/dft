@@ -7,8 +7,9 @@
     /* overflow-x:scroll; */
 }
 .alumni-flex{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-between;
     gap: 50px;
     justify-items: center;
 }
@@ -120,6 +121,18 @@
 
 }
 }
+
+@media screen and (max-width:1024px) {
+    .alumni-flex {
+        display: flex;
+        /* grid-template-columns: repeat(3, 1fr); */
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+}
+
 
 
 @media (max-width:767px){

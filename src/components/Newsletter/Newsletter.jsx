@@ -22,7 +22,7 @@ const Newsletter = () => {
                   <div className="news-section">
                     <img src={pdf} alt="" srcset="" />
                   </div>
-                  <div className="news-containers">20/10/2023</div>
+                  <div className="news-containers"><b>20/10/2023</b></div>
                   <div className="downlod-btn">
                     <Button label="download" />
                   </div>
@@ -32,7 +32,7 @@ const Newsletter = () => {
                   <div className="news-section">
                     <img src={pdf} alt="" srcset="" />
                   </div>
-                  <div className="news-containers">20/10/2023</div>
+                  <div className="news-containers"><b>20/10/2023</b></div>
                   <div className="downlod-btn">
                     <Button label="download" />
                   </div>
@@ -42,7 +42,7 @@ const Newsletter = () => {
                   <div className="news-section">
                     <img src={pdf} alt="" srcset="" />
                   </div>
-                  <div className="news-containers">20/10/2023</div>
+                  <div className="news-containers"><b>20/10/2023</b></div>
                   <div className="downlod-btn">
                     <Button label="download" />
                   </div>
