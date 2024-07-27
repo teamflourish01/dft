@@ -68,6 +68,12 @@
 .vision-height{
     /* / padding-top: 50px; / */
 }
+@media (max-width:1065px) and (min-width:1024px) {
+    .vision-mission-card {
+        height: 310px !important;
+    }
+}
+
 
 @media (max-width:1024px) {
     .vision-height{
