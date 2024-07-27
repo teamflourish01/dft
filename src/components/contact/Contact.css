@@ -141,6 +141,7 @@ textarea{
 
 .contact-decoration{
     text-decoration: none;
+    padding: 0 0 0 6px;
 }
 
 @media (max-width:1024px) {
