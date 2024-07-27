@@ -29,7 +29,8 @@
 }
 
 .input-field {
-    margin:0 10px 10px;
+    /* margin:0 10px 10px; */
+    margin: 0 10px 10px 0;
     font-family: Poppins-Regular;
     font-weight: 400;
     font-size: 18px;
