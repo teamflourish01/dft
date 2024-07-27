@@ -42,6 +42,7 @@ const Homesection = () => {
                         <div className="adv-flex">
                           <div className="adv-left" data-aos="slide-right">
                             <img src={homebanner} alt="Home Banner"  className="home-banner"/>
+                            
                           </div>
                           <div className="adv-right" data-aos="slide-left">
                             <div className="img-animation">

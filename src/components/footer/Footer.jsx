@@ -37,10 +37,13 @@ const Footer = () => {
                 <p>DFT Alumni Family, Bhavnagar</p>
               </div>
               <div className="link-icons">
-              <a href="https://wa.me/7016141186" target="_blank" rel="noopener noreferrer">
-  <img src={whatapp} alt="WhatsApp" />
-</a>
-
+                <a
+                  href="https://wa.me/7016141186"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={whatapp} alt="WhatsApp" />
+                </a>
 
                 <a
                   href="https://www.instagram.com/dftalumnifamily/"

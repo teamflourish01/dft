@@ -71,8 +71,21 @@ const Purpose = () => {
                             Organize a hackathon by inviting proposals on the
                             following topics:
                           </li>
+                          <li className="estas-width">
+                              Reducing carbon footprints
+                            </li>
+                            <li className="estas-width  ">
+                              Using eco-friendly products{" "}
+                            </li>
+
+                            <li className="estas-width">
+                              Increasing non-traditional transportation (EV)
+                            </li>
+                          
                         </ol>
-                        <div className="redbullet-padding">
+                        
+                        {/* <div className="redbullet-padding">
+                        
                           <ul className="red-bullets">
                             <li className="estas-width">
                               Reducing carbon footprints
@@ -90,7 +103,7 @@ const Purpose = () => {
                               Increasing non-traditional transportation (EV)
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
