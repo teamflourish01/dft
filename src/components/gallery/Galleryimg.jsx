@@ -1,6 +1,7 @@
 import React from 'react'
 import gimg from "../../images/gimg.png"
 import "./gallery.css";
+import Button from '../button/Button';
 const Galleryimg = () => {
   return (
     <>
@@ -26,9 +27,17 @@ const Galleryimg = () => {
                   <img src={gimg} alt="" srcset="" className="gimgs" />
                 </div>
               </div>
-
-
-
+              <div className="gimg-container">
+                <div>
+                  <img src={gimg} alt="" srcset="" className="gimgs" />
+                </div>
+                <div>
+                  <img src={gimg} alt="" srcset="" className="gimgs" />
+                </div>
+                <div>
+                  <img src={gimg} alt="" srcset="" className="gimgs" />
+                </div>
+              </div>
               <div className="gimg-container">
                 <div>
                   <img src={gimg} alt="" srcset="" className="gimgs" />
@@ -41,21 +50,9 @@ const Galleryimg = () => {
                 </div>
               </div>
 
-
-
-              <div className="gimg-container">
-                <div>
-                  <img src={gimg} alt="" srcset="" className="gimgs" />
-                </div>
-                <div>
-                  <img src={gimg} alt="" srcset="" className="gimgs" />
-                </div>
-                <div>
-                  <img src={gimg} alt="" srcset="" className="gimgs" />
-                </div>
+              <div className="btn-gallery">
+                <Button label="View More" />
               </div>
-
-
             </div>
           </div>
         </div>
