@@ -244,4 +244,7 @@
         width: 100px;
         height: 100px;
     }
+    .section-three {
+        padding: 0 10px;
+    }
 }
