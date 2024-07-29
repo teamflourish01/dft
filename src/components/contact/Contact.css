@@ -26,11 +26,12 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .input-field {
     /* margin:0 10px 10px; */
-    margin: 0 10px 10px 0;
+    margin: 0 0 10px 0;
     font-family: Poppins-Regular;
     font-weight: 400;
     font-size: 18px;
@@ -189,7 +190,7 @@ textarea{
         max-width: 705px;
         min-width: 200px;
         width: 100%;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
 
     .name-contact-input {
@@ -219,6 +220,9 @@ textarea{
         max-width: 147px;
         min-width: 50px;
         width: 100%;
+    }
+    .contact-container {
+        padding: 0 10px 0;
     }
 
 }
