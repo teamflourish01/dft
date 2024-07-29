@@ -158,9 +158,15 @@ const Navbar = () => {
                     <Link to="/contactus" className={`nav-link ${isActive('/contactus') ? 'active' : ''}`} onClick={closeMenu}>Contact Us</Link>
                   </li>
                 </ul>
-                <div className="hamburger-menu">
+                {/* <div className="hamburger-menu">
                   <Hamburger toggled={isOpen} toggle={setOpen} />
-                </div>
+                </div> */}
+                <div className="hamburger-menu">
+  <div className="hamburger-wrapper">
+    <Hamburger toggled={isOpen} toggle={setOpen} />
+  </div>
+</div>
+
               </div>
             </div>
           </div>
