@@ -431,7 +431,7 @@ hr {
   padding: 0 17px;
 }
 .im-family {
-  padding: 0 15px 15px;
+  padding: 0 10px 15px;
 }
   /* .maintitle {
     font-size: 20px;
@@ -472,13 +472,13 @@ line-height: 25px;
     font-size: 16px;
 }
   .founder-left{
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .down {
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .immensee {
-padding: 0 15px 15px;
+padding: 0 10px 15px;
 font-size: 16px;
 line-height: 25px;
   }
@@ -491,7 +491,7 @@ line-height: 25px;
     line-height: 25px;
   }
   .pandya{
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 16px;
     line-height: 25px;
 
@@ -544,7 +544,7 @@ hr{
 .Head-p{
   font-size: 18px;
   line-height: 30px;
-  padding:  0 15px;
+  padding:  0 10px;
   text-align: justify;
   word-break: break-all;
 }

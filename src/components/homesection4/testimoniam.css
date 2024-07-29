@@ -42,6 +42,7 @@
    
     
 }
+
 .slick-dots{
     position: relative;
 }
@@ -61,11 +62,11 @@
 
 
 }
+.slick-prev {
+    left: -47px;
+  }
 
-.slick-prev:before,
-.slick-next:before {
-    /* color: black; */
-}
+
 
 
 .slick-dots {
