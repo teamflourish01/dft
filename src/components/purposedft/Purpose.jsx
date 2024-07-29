@@ -72,18 +72,17 @@ const Purpose = () => {
                             following topics:
                           </li>
                           <li className="estas-width">
-                              Reducing carbon footprints
-                            </li>
-                            <li className="estas-width  ">
-                              Using eco-friendly products{" "}
-                            </li>
+                            Reducing carbon footprints
+                          </li>
+                          <li className="estas-width  ">
+                            Using eco-friendly products{" "}
+                          </li>
 
-                            <li className="estas-width">
-                              Increasing non-traditional transportation (EV)
-                            </li>
-                          
+                          <li className="estas-width">
+                            Increasing non-traditional transportation (EV)
+                          </li>
                         </ol>
-                        
+
                         {/* <div className="redbullet-padding">
                         
                           <ul className="red-bullets">
@@ -246,7 +245,8 @@ const Purpose = () => {
                 On behalf of the BPTI family, I welcome you all with tons of
                 love and affection.
               </p>
-              <p className="pandya">Dr A S Pandya Principal, BPTI, Bhavnagr</p>
+              <p className="pandyas">Dr. A. S. Pandya</p>
+              <p className="pandya"> Principal, BPTI, Bhavnagar</p>
             </div>
           </div>
         </div>
@@ -297,11 +297,14 @@ const Purpose = () => {
               God bless you all, and I invite you to visit our beloved institute
               and department at your convenience.
             </p>
+            <div className="paragraph-padding">
+            <p className="Head-pname">Samirbhai Y. Merchant,</p>
+            <p className="Head-p">Head of Department (I/C),</p>
+            <p className="Head-p">Fabrication Technology Department,</p>
             <p className="Head-p">
-              Samirbhai Y. Merchant Head of Department (I/C) Fabrication
-              Technology Department Sir Bhavsinhji Polytechnic institute,
-              Bhavnagr - 364001
+              Sir Bhavsinhji Polytechnic institute,Bhavnagr - 364001
             </p>
+            </div>
           </div>
         </div>
       </section>
@@ -351,11 +354,19 @@ const Purpose = () => {
               Eager to meet you all at the alumni meet.
             </p>
             <p className="warm">With warm regards,</p>
-            <p className="Head-p">
-              Nilesh M. Bhangale Lecturer in Fabrication Technology Department
-              Training and Placement Officer Sir Bhavsinhji Polytechnic
-              Institute Bhavnagar Polytechnic institute, Bhavnagr - 364001
+            <div className="paragraph-padding">
+            <p className="Head-p" >
+              Nilesh M. Bhangale,
             </p>
+            <p className="Head-p">
+              Lecturer in Fabrication Technology Department,
+            </p>
+            <p className="Head-p">Training and Placement Officer,</p>
+            <p className="Head-p">
+              Sir Bhavsinhji Polytechnic Institute Bhavnagar Polytechnic
+              institute, Bhavnagr - 364001
+            </p>
+            </div>
           </div>
         </div>
       </section>

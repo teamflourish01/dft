@@ -224,13 +224,14 @@ hr {
 }
 .Acharya{
   font-family: Poppins-SemiBold;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
-  text-align: right;
+  text-align: left;
+  padding: 15px 0 0 0;
 
 }
 .family {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
@@ -239,7 +240,7 @@ hr {
   padding: 0 30px;
 }
 .im-family{
-    font-size: 18px;
+    font-size: 20px;
   line-height: 30px;
   font-family: Poppins-Medium;
   text-align: justify;
@@ -257,9 +258,15 @@ hr {
   
 }
 .pandya {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   font-family: Poppins-SemiBold;
+}
+.pandyas{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Poppins-SemiBold;
+  padding: 15px 0 0 0;
 }
 .red-bullets {
   list-style-type: none;
@@ -303,14 +310,21 @@ hr {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  padding: 15px 0 0 30px;
+  /* padding: 0 0 0 30px; */
 
+}
+.Head-pname{
+  font-family: Poppins-SemiBold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* padding: 15px 0 0 30px; */
 }
 .warm {
   font-family: Poppins-Medium;
   font-size: 18px;
   line-height: 30px;
-  padding: 0 30px;
+  padding: 15px 30px 0 30px;
 }
 .amoung-padding {
   padding: 15px 0 0 0;
@@ -318,6 +332,9 @@ hr {
 .title-purpose{
   padding: 100px 0 50px;
   text-align: center;
+}
+.paragraph-padding{
+  padding: 15px 30px;
 }
 @media screen and (max-width:1024px) {
 
@@ -416,6 +433,9 @@ hr {
   .redbullet-padding {
     padding: 0 0 0 20px;
   }
+  .paragraph-padding{
+    padding: 0  10px;
+  }
   .quality{
     font-size: 16px;
     line-height: 25px;
@@ -496,6 +516,11 @@ line-height: 25px;
     line-height: 25px;
 
   }
+  .pandyas{
+    padding: 0 10px;
+    /* font-size: 16px; */
+    /* line-height: 25px; */
+  }
   .Head {
     font-family: Poppins-SemiBold;
     font-weight: 600;
@@ -544,9 +569,9 @@ hr{
 .Head-p{
   font-size: 18px;
   line-height: 30px;
-  padding:  0 10px;
-  text-align: justify;
-  word-break: break-all;
+  /* padding:  0 10px; */
+  /* text-align: justify; */
+  /* word-break: break-all; */
 }
 .founder-img-bg {
   margin-top: unset;
