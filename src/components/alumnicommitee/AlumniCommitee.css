@@ -113,9 +113,9 @@
 .alumni-commitee-card{
     margin: 65px 20px 0;
 }
-.maintitle {
+/* .maintitle {
     font-size: 30px;
-}
+} */
 .alumni-flex{
     grid-template-columns: repeat(2, 1fr);
 
@@ -136,10 +136,10 @@
 
 
 @media (max-width:767px){
-.maintitle {
+/* .maintitle {
     font-size: 20px;
     line-height: 24px;
-}
+} */
 .alumni-commitee-title{
     /* padding: 50px 0 20px; */
 }

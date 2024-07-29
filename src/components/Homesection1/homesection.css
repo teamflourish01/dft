@@ -241,11 +241,13 @@
   }
 
   .find {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 40px;
   }
 
   .let {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 25px;
     line-height: 36px;
     padding: 5px 0 5px 0;
   }

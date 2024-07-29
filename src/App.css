@@ -6,7 +6,7 @@
 
 .navbar-margin{
   /* padding: 121px 0 0; */
-  padding: 142px 0 0;
+  padding: 123px 0 0;
 
 }
 
@@ -20,6 +20,6 @@
 @media (max-width: 767px) {
   .navbar-margin {
       /* padding: 142px 0 0; */
-      padding: 90px 0 0;
+      padding: 80px 0 0;
     }
 }

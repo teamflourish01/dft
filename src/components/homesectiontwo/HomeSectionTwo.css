@@ -179,6 +179,7 @@
         font-family: Poppins-Bold;
         line-height: 60.59px;
         padding: 50px 0 30px;
+        text-align: center;
     }
 
     .about-title-responsive,
@@ -192,12 +193,18 @@
     .btn-about {
         padding: 30px 0 0;
     }
+    .fontt{
+        font-size: calc(30px + (47 - 30) * ((100vw - 767px) / (1024 - 767)));
+        line-height: 24px;
+    }
     
 }
 
 @media (max-width: 767px) {
     .about-us {
-        padding: 0 10px 0;
+        /* padding: 0 10px 0; */
+        padding: 0 10px 50px;
+
     }
     .about-img-background {
         width: 95%;
@@ -233,6 +240,10 @@
         padding: 50px 0 20px;
 
         /* padding-bottom: 30px; */
+    }
+    .fontt{
+        font-size: calc(20px + (30 - 20) * ((100vw - 280px) / (767 - 280)));
+        line-height: 24px;
     }
 
     .about-description {

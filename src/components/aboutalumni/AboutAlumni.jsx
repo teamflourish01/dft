@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import aboutImg from '../../images/aboutfullimage.png';
 import '../../components/homesectiontwo/HomeSectionTwo.css';
+import '../../components/aboutalumni/AboutAlumni.css';
 import Button from '../button/Button.jsx';
 import aboutBg from '../../images/aboutBg.png';
 
@@ -11,7 +12,7 @@ function AboutAlumni() {
             <div className='full-width'>
                 <div className="main-content-1320">
                     <div className="padding-dft">
-                        <div className="about-us">
+                        <div className="about-us-page">
                             {/* <p className='about-title-responsive '>About DFT Alumni</p> */}
                             <p className="maintitle about-title-responsive ">About DFT Alumni</p>
                             <div className="about-img-container ">

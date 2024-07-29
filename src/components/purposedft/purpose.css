@@ -407,8 +407,11 @@ hr {
   .title-purpose {
     padding: 50px 0 30px;
 }
-}
+.founder-img-bg {
+  margin-top: 20px;
 
+}
+}
 @media screen and (max-width: 767px) {
   .redbullet-padding {
     padding: 0 0 0 20px;
@@ -430,9 +433,9 @@ hr {
 .im-family {
   padding: 0 15px 15px;
 }
-  .maintitle {
+  /* .maintitle {
     font-size: 20px;
-  }
+  } */
   .Among-Alumni {
     padding: 0 10px;
   }
@@ -544,6 +547,9 @@ hr{
   padding:  0 15px;
   text-align: justify;
   word-break: break-all;
+}
+.founder-img-bg {
+  margin-top: unset;
 }
 }
 

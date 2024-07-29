@@ -107,6 +107,10 @@
 display: none;
 
 }
+.maintitle{
+    font-size: calc(30px + (47 - 30) * ((100vw - 767px) / (1024 - 767)));
+    line-height: 24px;
+}
 }
 
 @media screen and (max-width:767px){
@@ -123,7 +127,9 @@ display: none;
         font-size: 16px;
        
         line-height: 25px;
-       
-     
+    }
+    .maintitle{
+        font-size: calc(20px + (30 - 20) * ((100vw - 280px) / (767 - 280)));
+        line-height: 24px;
     }
 }

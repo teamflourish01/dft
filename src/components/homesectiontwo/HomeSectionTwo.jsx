@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 // import aboutImg from '../../images/about.png';
 // import './HomeSectionTwo.css';
 import aboutImg from "../../images/aboutfullimage.png";
+// import aboutImg from "../../images/AboutNewImg.png";
+
 import "../../components/homesectiontwo/HomeSectionTwo.css";
 import Button from "../button/Button.jsx";
 import aboutBg from "../../images/aboutBg.png";
@@ -42,7 +44,7 @@ function HomeSectionTwo() {
         <div className="main-content-1320">
           <div className="padding-dft">
             <div className="about-us">
-              <p className="maintitle about-title-responsive animate__animated animate__fadeInRight animate__slower">
+              <p className="maintitle fontt about-title-responsive animate__animated animate__fadeInRight animate__slower">
                 About DFT Alumni
               </p>
               {/* <p className='about-title-responsive animate__animated animate__fadeInRight animate__slower'>About DFT Alumni</p> */}
