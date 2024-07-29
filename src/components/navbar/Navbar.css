@@ -134,6 +134,16 @@
     .inner-navbar {
         padding: 11px 30px;
     }
+    .hamburger-react{
+        cursor: pointer;
+    height: 48px !important;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0, 0, 0, 1) 0s;
+    user-select: none;
+    width: 35px !important;
+    outline: none;
+    transform: none;
+    }
 }
 
 
