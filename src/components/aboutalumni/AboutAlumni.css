@@ -1,0 +1,26 @@
+.about-us-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: 20px; */
+    padding: 100px 30px 100px;
+    gap: 200px;
+
+}
+@media (max-width: 1024px) {
+    .about-us-page {
+        flex-direction: column;
+        padding: 0 30px 0;
+        /* gap: 20px; */
+        gap: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us-page {
+        padding: 0 10px 0;
+        /* padding: 0 10px 20px; */
+
+    }
+}

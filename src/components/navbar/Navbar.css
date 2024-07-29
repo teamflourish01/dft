@@ -24,7 +24,7 @@
 
 .inner-navbar {
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 .navigation-bar {
@@ -96,7 +96,8 @@
         align-items: flex-start;
         width: 100%;
         position: absolute;
-        top: 140px;
+        /* top: 140px; */
+        top: 80px;
         /* Adjust this value based on your navbar height */
         left: 0;
         background-color: #fff;
