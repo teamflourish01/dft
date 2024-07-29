@@ -63,8 +63,15 @@
 .hamburger-menu {
     display: none;
 }
+
 .nav-link.active {
     color: #E42326;
+}
+
+
+.hamburger-wrapper {
+    transform: scale(0.8); 
+    display: inline-block;
   }
 
 @media (max-width: 1024px) {
@@ -120,7 +127,22 @@
     }
 
     .dft-logo-hamburger img {
-        width: 100px;
-        height: 102px;
+        width: 72px;
+        height: 74px;
+    }
+    .inner-navbar {
+        padding: 11px 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .inner-navbar {
+        padding: 11px;
+    }
+
+    .dft-logo-hamburger img {
+        width: 56px;
+        height: 58px;
     }
 }
