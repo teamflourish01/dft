@@ -163,7 +163,7 @@ const Navbar = () => {
                 </div> */}
                 <div className="hamburger-menu">
   <div className="hamburger-wrapper">
-    <Hamburger toggled={isOpen} toggle={setOpen} />
+    <Hamburger toggled={isOpen} toggle={setOpen} className="react-hamburger-icon"/>
   </div>
 </div>
 

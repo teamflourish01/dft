@@ -213,6 +213,10 @@
     .news-update-event-cards {
         padding-top: 50px;
     }
+    .notable-card-img img {
+        width: 121px;
+        height: 121px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -235,5 +239,9 @@
     }
     .news-update-event-cards {
         gap: 30px;
+    }
+    .notable-card-img img {
+        width: 100px;
+        height: 100px;
     }
 }
