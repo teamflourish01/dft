@@ -67,7 +67,7 @@ function AlumniCommitee() {
                         <p className='alumni-commitee-card-text uppercase'>Mr. mahesh patel</p>
                         <p className='alumni-commitee-span-text'>Secretory
                         </p>
-                        <p className='alumni-commitee-span-text'>DFT Batch (1991)</p>
+                        <p className='alumni-commitee-span-texts'>DFT Batch (1991)</p>
                     </div>
 
 
@@ -78,7 +78,7 @@ function AlumniCommitee() {
                         <p className='alumni-commitee-card-text uppercase'>Mr. ashok pansuriya</p>
                         <p className='alumni-commitee-span-text'>
                             Treasurer</p>
-                        <p className='alumni-commitee-span-text'>DFT Batch (1989)</p>
+                        <p className='alumni-commitee-span-texts'>DFT Batch (1989)</p>
                     </div>
 
 

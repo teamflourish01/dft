@@ -1,19 +1,31 @@
-import React, { useEffect } from "react";
-
+import React, { useEffect, useState } from "react";
 import "../Homesection1/homesection.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import bleft from "../../images/bleft.png";
-import bright from "../../images/bright.png";
-import banner from "../../images/banner.png";
+import homebanner from "../../images/homebanner.png";
 import dft from "../../images/dft.png";
 import welcome from "../../images/welcome.png";
-import homebanner from "../../images/homebanner.png";
+
+const images = [
+  homebanner,
+  dft,
+  welcome
+];
 
 const Homesection = () => {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 3000); // Change image every 3 seconds
+    return () => clearInterval(interval);
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
     <>
       <section>
@@ -28,30 +40,23 @@ const Homesection = () => {
                       <div className="adventure-flex">
                         <div className="adventure-left" data-aos="slide-right">
                           <p className="find">To the Path of Success</p>
-
                           <p className="let"> Be a part of us</p>
                           <p className="amet">
                             Create your Future with Diploma in Fabrication Technology. 
                             Learn, Apply, and Be Successful. Start your Journey with DFT.
                           </p>
-                          <p className="nonummy">
-
-                          </p>
+                          <p className="nonummy"></p>
                         </div>
                         <div className="adventure-right">
-                          <div className="adv-flex">
-                            <div className="adv-left" data-aos="slide-right">
-                              <img src={homebanner} alt="Home Banner" className="home-banner" />
-
-                            </div>
-                            <div className="adv-right" data-aos="slide-left">
-                              <div className="img-animation">
-                                <img src={dft} alt="DFT" className="dft-image" />
-                              </div>
-                              <div className="img-animation">
-                                <img src={welcome} alt="Welcome" className="welcome-img" />
-                              </div>
-                            </div>
+                          <div className="image-container">
+                            {images.map((image, index) => (
+                              <img
+                                key={index}
+                                src={image}
+                                alt={`slide ${index}`}
+                                className={`slide ${index === current ? 'active' : ''}`}
+                              />
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -59,13 +64,12 @@ const Homesection = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Homesection
+export default Homesection;
