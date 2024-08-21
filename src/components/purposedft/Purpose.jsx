@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../purposedft/purpose.css";
 import one from "../../images/one.png";
 import two from "../../images/two.png";
 import founder from "../../images/founder.png";
+
 const Purpose = () => {
+  const [data, setData] = useState([]);
+
+  const url = "http://localhost:8080/deskfounder";
+
+  const getData = async () => {
+    try {
+      let data = await fetch(`${url}`);
+      data = await data.json();
+      setData(data[0]);
+      console.log("founder", data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <section>
@@ -151,6 +170,40 @@ const Purpose = () => {
             <div className="founder-padding">
               <div className="founder-flex">
                 <div className="founder-left">
+                  {/* <p className="Fabrication">
+                    {data?.Deskfounder_name}
+                  </p> */}
+
+                  <div
+                    className="Fabrication"
+                    dangerouslySetInnerHTML={{ __html: data?.Deskfounder_name }}
+                  />
+                </div>
+                <div className="founder-right">
+                  <div className="founder-img-bg">
+                    <img
+                      src={`${url}/${data?.Deskfounder_images}`}
+                      alt=""
+                      srcset=""
+                      className="founder-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section>
+        <div className="full-width">
+          <div className="main-content-1320">
+            <div className="padding-dft"></div>
+            <div className="title">
+              <p className="maintitle">From the Desk of the Founder</p>
+            </div>
+            <div className="founder-padding">
+              <div className="founder-flex">
+                <div className="founder-left">
                   <p className="Fabrication">
                     Welcome to the Fabrication Family! We're all about
                     continuous growth, a positive mindset, technological
@@ -206,7 +259,7 @@ const Purpose = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="hr-line">
         <hr />
       </div>
@@ -298,12 +351,12 @@ const Purpose = () => {
               and department at your convenience.
             </p>
             <div className="paragraph-padding">
-            <p className="Head-pname">Samirbhai Y. Merchant,</p>
-            <p className="Head-p">Head of Department (I/C),</p>
-            <p className="Head-p">Fabrication Technology Department,</p>
-            <p className="Head-p">
-              Sir Bhavsinhji Polytechnic institute,Bhavnagr - 364001
-            </p>
+              <p className="Head-pname">Samirbhai Y. Merchant,</p>
+              <p className="Head-p">Head of Department (I/C),</p>
+              <p className="Head-p">Fabrication Technology Department,</p>
+              <p className="Head-p">
+                Sir Bhavsinhji Polytechnic institute,Bhavnagr - 364001
+              </p>
             </div>
           </div>
         </div>
@@ -355,17 +408,15 @@ const Purpose = () => {
             </p>
             <p className="warm">With warm regards,</p>
             <div className="paragraph-padding">
-            <p className="Head-p" >
-              Nilesh M. Bhangale,
-            </p>
-            <p className="Head-p">
-              Lecturer in Fabrication Technology Department,
-            </p>
-            <p className="Head-p">Training and Placement Officer,</p>
-            <p className="Head-p">
-              Sir Bhavsinhji Polytechnic Institute Bhavnagar Polytechnic
-              institute, Bhavnagr - 364001
-            </p>
+              <p className="Head-p">Nilesh M. Bhangale,</p>
+              <p className="Head-p">
+                Lecturer in Fabrication Technology Department,
+              </p>
+              <p className="Head-p">Training and Placement Officer,</p>
+              <p className="Head-p">
+                Sir Bhavsinhji Polytechnic Institute Bhavnagar Polytechnic
+                institute, Bhavnagr - 364001
+              </p>
             </div>
           </div>
         </div>
