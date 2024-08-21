@@ -1,11 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../components/contact/Contact.css";
 import Button from "../button/Button";
 import locationicon from "../../images/location.png";
 import phoneicon from "../../images/call.png";
 import emailicon from "../../images/email.png";
+import { useForm } from "react-hook-form";
+
 
 function Contact() {
+  const [isLoading, setIsLoading] = useState(false);
+  const url = "http://localhost:8080";
+  const { register, handleSubmit, reset } = useForm();
+
+  const onSubmit = async (data) => {
+    setIsLoading(true);
+    try {
+      const response = await fetch(`${url}/twoemail/send-email`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      if (response.ok) {
+        alert("Emails sent successfuly");
+        reset();
+      } else {
+        alert("Failed to send Mail");
+      }
+    } catch (error) {
+      console.log(error);
+      alert("Error sending emails");
+    } finally {
+      setIsLoading(false);
+    }
+  };
   return (
     <>
       <section>
@@ -17,40 +46,59 @@ function Contact() {
                 <p className="maintitle">Contact Us</p>
               </div>
               <div className="contact-content">
-                <div className="contact-form">
-                  <div className="name-contact-row">
-                    <div className="input-field name-contact">
-                      <div className="input-field">Name</div>
-                      <div className="input-group name-contact-input">
-                        <input type="text" className="input" />
+              <div className="contact-form">
+
+                <form onSubmit={handleSubmit(onSubmit)}>
+                    <div className="name-contact-row">
+                      <div className="input-field name-contact">
+                        <div className="input-field">Name</div>
+                        <div className="input-group name-contact-input">
+                          <input
+                            type="text"
+                            className="input"
+                            {...register("name", { required: true })}
+                          />
+                        </div>
+                      </div>
+                      <div className="input-field name-contact">
+                        <div className="input-field">Contact Number</div>
+                        <div className="input-group name-contact-input">
+                          <input
+                            type="number"
+                            className="input"
+                            {...register("contactNumber", { required: true })}
+                          />
+                        </div>
                       </div>
                     </div>
-                    <div className="input-field name-contact">
-                      <div className="input-field">Contact Number</div>
-                      <div className="input-group name-contact-input">
-                        <input type="text" className="input" />
+                    <div className="email-row">
+                      <div className="input-field">
+                        <div className="input-field">Email</div>
+                        <div className="input-group">
+                          <input
+                            type="email"
+                            className="input"
+                            {...register("email", { required: true })}
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="email-row">
-                    <div className="input-field">
-                      <div className="input-field">Email</div>
-                      <div className="input-group">
-                        <input type="text" className="input" />
+                    <div className="message-row">
+                      <div className="input-field">
+                        <div className="input-field">Message</div>
+                        <div className="input-group">
+                          <textarea
+                            className="input"
+                            {...register("Message", { required: true })}
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="message-row">
-                    <div className="input-field">
-                      <div className="input-field">Message</div>
-                      <div className="input-group">
-                        <textarea className="input" />
-                      </div>
+                    <div className="btn-contact">
+                      <Button type={"submit"} label="Submit" />
                     </div>
-                  </div>
-                  <div className="btn-contact">
-                    <Button label="Submit" />
-                  </div>
+                 
+                </form>
                 </div>
                 <div className="contact-address">
                   <div className="address">
@@ -78,11 +126,8 @@ function Contact() {
                       className="icon-contact"
                     />
                     <p className="address-land-marks">
-                      <a
-                        href="tel:9825471959"
-                        className="contact-decoration"
-                      >
-                        (+91) 98254 71959  | 
+                      <a href="tel:9825471959" className="contact-decoration">
+                        (+91) 98254 71959 |
                       </a>
 
                       <a href="tel:7016141186" className="contact-decoration">

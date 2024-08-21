@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../../components/visionmission/VisionMission.css";
 import mission from "../../images/mission.png";
 import vision from "../../images/vision.png";
+
+
 function VisionMission() {
+  const [data, setData] = useState(null);
+
+  const url = "http://localhost:8080/about";
+
+  const getData = async () => {
+    try {
+      let data = await fetch(`${url}`);
+      data = await data.json();
+      setData(data[0]);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(()=>{
+      getData();
+  },[]);
+
+
+
+
   return (
     <>
       <div className="vision-mission-container">
@@ -11,12 +34,9 @@ function VisionMission() {
             <div className="vision-mission-card-img">
               <img src={mission} alt="mission-one-img" />
             </div>
-            <p className="vision-mission-card-text">Our Mission</p>
+            <p className="vision-mission-card-text">{data?.Our_mision_heading}</p>
             <p className="vision-mission-span-text">
-              To create a lifelong and worldwide community of DFT alumni through
-              increased opportunities for meaningful engagement, thereby
-              enhancing networking, volunteer involvement in social work, and
-              commitment to fellow DFTians.
+              {data?.Our_mision_text}
             </p>
           </div>
         </div>
@@ -25,12 +45,9 @@ function VisionMission() {
             <div className="vision-mission-card-img">
               <img src={vision} alt="mission-one-img" />
             </div>
-            <p className="vision-mission-card-text">Our Vision</p>
+            <p className="vision-mission-card-text">{data?.Our_vision_heading}</p>
             <p className="vision-mission-span-text">
-              To promote goodwill and a sense of pride among alumni and
-              students. To help and support alumni in developing and spreading
-              an entrepreneurial mindset among students. To advise on and
-              conduct activities that will motivate and upgrade skill sets.
+            {data?.Our_vision_text}
             </p>
           </div>
         </div>

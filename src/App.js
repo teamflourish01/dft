@@ -16,6 +16,7 @@ import Notabal from './components/notabalalumni/Notabal';
 import NotabalAlumni from './pages/notabalalumni/NotabalAlumni';
 import Contact from './components/contact/Contact';
 import ContactUs from './pages/contactus/ContactUs';
+import Gallery from './components/gallery/Gallery';
 // import About from './components/aboutus/About';
 
 
@@ -29,8 +30,10 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/newsletter' element={<News/>}/>
         <Route path='/Gallerypage' element={<Gallerypage/>}/>
+        {/* <Route path="/gallery" element={<Gallery />} /> */}
         <Route path='/Galleryimg' element={<Galleryimg/>}/>
         {/* <Route path='/about' element={<About/>}/> */}
+        <Route path="/gallery/:id" element={<Galleryimg />} />
         <Route path='/notabalalumni' element={<NotabalAlumni/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
 

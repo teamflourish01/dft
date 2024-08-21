@@ -2,7 +2,6 @@
         background-image: url(../../images/fimg.png);
         background-repeat: no-repeat;
         background-position: right calc(100% - 145px);
-
 }
 .section-three {
     padding: 0 20px;
@@ -79,7 +78,12 @@
     width: 126px;
     height: 126px;
 }
-
+.img-circle-css{
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
 /* Bottom card*/
@@ -157,9 +161,9 @@
     top: 40%;
     left: 35%;
 }
-.event{
+/* .event{
     left: 40%;
-}
+} */
 .card-title .card-date {
     font-family: Poppins-SemiBold;
     font-size: 18px;
