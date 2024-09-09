@@ -65,16 +65,16 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./gallery.css";
+import Button from "../button/Button";
 
 const Galleryimg = () => {
   const { id } = useParams(); // Get the ID from the URL
   const [data, setData] = useState(null);
-
-  const url = "http://localhost:8080/gallery";
+  const url = process.env.REACT_APP_URL;
 
   const getData = async () => {
     try {
-      let response = await fetch(`${url}/${id}`); // Fetch data for the specific ID
+      let response = await fetch(`${url}/gallery/${id}`); // Fetch data for the specific ID
       let data = await response.json();
       setData(data);
       console.log(data);
@@ -103,13 +103,24 @@ const Galleryimg = () => {
                 {data?.Gallery_images.map((image, index) => (
                   <div key={index}>
                     <img
-                      src={`${url}/${image}`}
+                      src={`${url}/gallery/${image}`}
                       alt={`Gallery Image ${index + 1}`}
                       className="gimgs"
                     />
                   </div>
                 ))}
               </div>
+             
+               <div className="btn-gallery">
+               <a
+                    href={data?.gallary_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="devlopedby"
+                  >
+                 <Button label="View More" />
+                 </a>
+               </div>
             </div>
           </div>
         </div>

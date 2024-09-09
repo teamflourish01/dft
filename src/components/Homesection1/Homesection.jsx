@@ -9,8 +9,11 @@ const Homesection = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  const url = process.env.REACT_APP_URL;
+
+
   useEffect(() => {
-    fetch('http://localhost:8080/home')
+    fetch(`${url}/home`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -69,7 +72,7 @@ const Homesection = () => {
                             {data.Banner_images.map((image, index) => (
                               <img
                                 key={index}
-                                src={`http://localhost:8080/homebannerimage/${image}`}
+                                src={`${url}/homebannerimage/${image}`}
                                 alt={`Banner ${index + 1}`}
                                 className={`slide ${index === current ? 'active' : ''}`} // Active class for the current image
                               />

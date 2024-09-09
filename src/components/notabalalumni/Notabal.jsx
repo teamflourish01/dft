@@ -8,11 +8,11 @@ function Notabal() {
   const [data, setData] = useState([]);
   const [expandedIndex, setExpandedIndex] = useState(null);
 
-  const url = "http://localhost:8080/notablealumnipage";
+  const url = process.env.REACT_APP_URL;
 
   const getData = async () => {
     try {
-      let response = await fetch(url);
+      let response = await fetch(`${url}/notablealumnipage`);
       let result = await response.json();
       console.log(result);
       setData(result);

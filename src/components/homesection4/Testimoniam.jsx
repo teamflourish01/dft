@@ -33,12 +33,11 @@ const SamplePrevArrow = (props) => {
 
 const Testimoniam = () => {
   const [data, setData] = useState([]);
-
-  const url = "http://localhost:8080/testimonial";
+  const url = process.env.REACT_APP_URL;
 
   const getData = async () => {
     try {
-      let response = await fetch(`${url}`);
+      let response = await fetch(`${url}/testimonial`);
       let testimonials = await response.json();
       setData(testimonials);
     } catch (error) {
@@ -79,7 +78,7 @@ const Testimoniam = () => {
                     {data.map((testimonial) => (
                       <div key={testimonial._id} className="tesmonion-main">
                         <img
-                          src={`http://localhost:8080/testimonialimage/${testimonial.Testimonial_image}`}
+                          src={`${url}/testimonialimage/${testimonial.Testimonial_image}`}
                           alt={testimonial.Testimonial_name}
                           className="tesmo-img"
                         />

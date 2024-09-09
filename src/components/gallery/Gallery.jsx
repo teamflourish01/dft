@@ -8,11 +8,14 @@ import Banner from "../banner/Banner";
 const Gallery = () => {
   const [data, setData] = useState(null);
 
-  const url = "http://localhost:8080/gallery";
+  const url = process.env.REACT_APP_URL;
+
+
+  // const url = "http://localhost:8080/gallery";
 
   const getData = async () => {
     try {
-      let data = await fetch(`${url}`);
+      let data = await fetch(`${url}/gallery`);
       data = await data.json();
       setData(data);
       console.log(data);
@@ -41,7 +44,7 @@ const Gallery = () => {
                   {/* Pass the item ID as a parameter in the URL */}
                   <Link to={`/gallery/${item._id}`}>
                     <img
-                      src={`${url}/${item?.Gallery_images[0]}`}
+                      src={`${url}/gallery/${item?.Gallery_images[0]}`}
                       alt="gallery"
                       className="gallery-img"
                     />

@@ -8,11 +8,11 @@ import aboutBg from '../../images/aboutBg.png';
 function AboutAlumni() {
     const [data, setData] = useState(null);
 
-    const url = "http://localhost:8080/about";
+    const url = process.env.REACT_APP_URL;
   
     const getData = async () => {
       try {
-        let data = await fetch(`${url}`);
+        let data = await fetch(`${url}/about`);
         data = await data.json();
         setData(data[0]);
       } catch (error) {
@@ -35,7 +35,7 @@ function AboutAlumni() {
                             <div className="about-img-container ">
                                 <div className="about-img-background">
                                     {/* <img src={aboutImg} alt="aboutusImg" className='about-img' /> */}
-                                    <img src={`http://localhost:8080/aboutimage/${data?.About_images}`} alt="aboutusImg" className='about-img' />
+                                    <img src={`${url}/aboutimage/${data?.About_images}`} alt="aboutusImg" className='about-img' />
                                     
                                 </div>
                             </div>

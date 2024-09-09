@@ -183,6 +183,7 @@ textarea{
     .name-contact-row {
         display: flex;
         /* flex-direction: column; */
+        gap: unset;
         flex-wrap: wrap;
     }
 

@@ -9,7 +9,8 @@ import { useForm } from "react-hook-form";
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(false);
-  const url = "http://localhost:8080";
+  const url = process.env.REACT_APP_URL;
+
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = async (data) => {
@@ -64,7 +65,7 @@ function Contact() {
                         <div className="input-field">Contact Number</div>
                         <div className="input-group name-contact-input">
                           <input
-                            type="number"
+                            type="text"
                             className="input"
                             {...register("contactNumber", { required: true })}
                           />
@@ -95,7 +96,19 @@ function Contact() {
                       </div>
                     </div>
                     <div className="btn-contact">
-                      <Button type={"submit"} label="Submit" />
+                    {isLoading ? (
+                        <Button
+                          type="button"
+                          label="Loading..."
+                          isLoading={true}
+                        />
+                      ) : (
+                        <Button
+                          type="submit"
+                          label="Submit"
+                          isLoading={false}
+                        />
+                      )}                     
                     </div>
                  
                 </form>

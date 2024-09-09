@@ -6,12 +6,12 @@ import Banner from "../banner/Banner";
 
 const Newsletter = () => {
   const [data, setData] = useState(null);
+  const url = process.env.REACT_APP_URL;
 
-  const url = "http://localhost:8080/newsletter";
 
   const getData = async () => {
     try {
-      let response = await fetch(url);
+      let response = await fetch(`${url}/newsletter`);
       let result = await response.json();
       console.log(result);
       setData(result[0]); // Assuming only one item for now
@@ -45,7 +45,7 @@ const Newsletter = () => {
                       </div>
                       <div className="news-containers"><b>{data.Newsletter_name}</b></div>
                       <div className="downlod-btn">
-                        <a href={`http://localhost:8080/newsletter/${data.Newsletter_pdfs}`}>
+                        <a href={`${url}/newsletter/${data.Newsletter_pdfs}`}>
                         <Button 
                           label="download" 
                           />
