@@ -197,7 +197,7 @@
   .adventure-left {
     max-width: none;
     min-width: none;
-    padding: 0 25px;
+    /* padding: 0 25px;x */
   }
 
   .img-animation {
@@ -241,13 +241,16 @@
   }
 
   .find {
-    /* font-size: 20px; */
-    font-size: 40px;
+    font-size: 20px;
+    /* font-size: 40px; */
+line-height: 24.38px;
+text-align: left;
+
   }
 
   .let {
-    /* font-size: 16px; */
-    font-size: 25px;
+    font-size: 18px;
+    /* font-size: 25px; */
     line-height: 36px;
     padding: 5px 0 5px 0;
   }
@@ -271,6 +274,9 @@
 
   .dft-image {
     height: unset;
+  }
+  .amet {
+    text-align: justify;
   }
 }
 

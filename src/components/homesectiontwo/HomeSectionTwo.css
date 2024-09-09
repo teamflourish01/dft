@@ -202,8 +202,8 @@
 
 @media (max-width: 767px) {
     .about-us {
-        /* padding: 0 10px 0; */
-        padding: 0 10px 50px;
+        padding: 0 10px 0;
+        /* padding: 0 10px 50px; */
 
     }
     .about-img-background {

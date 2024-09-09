@@ -15,13 +15,14 @@ function HomeSectionThree() {
   const [data, setData] = useState([]);
 
   const [event, setEvent] = useState(null);
+  const url = process.env.REACT_APP_URL;
 
-  const url = "http://localhost:8080/notablealumni";
-  const urlEvent ="http://localhost:8080/home";
+
+  const urlEvent =`${url}/home`;
 
   const getData = async () => {
     try {
-      let data = await fetch(`${url}`);
+      let data = await fetch(`${url}/notablealumni`);
       data = await data.json();
       setData(data);
       console.log(data);
@@ -107,7 +108,7 @@ function HomeSectionThree() {
                           <div className="notable-card">
                             <div className="notable-card-img">
                               <img
-                                src={`${url}/${item?.Notable_images}`}
+                                src={`${url}/notablealumni/${item?.Notable_images}`}
                                 alt={item?.Notable_name}
                                 className="img-circle-css"
                               />

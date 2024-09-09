@@ -6,12 +6,11 @@ import vision from "../../images/vision.png";
 
 function VisionMission() {
   const [data, setData] = useState(null);
-
-  const url = "http://localhost:8080/about";
+  const url = process.env.REACT_APP_URL;
 
   const getData = async () => {
     try {
-      let data = await fetch(`${url}`);
+      let data = await fetch(`${url}/about`);
       data = await data.json();
       setData(data[0]);
     } catch (error) {

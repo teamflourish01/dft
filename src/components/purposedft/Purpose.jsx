@@ -7,11 +7,12 @@ import founder from "../../images/founder.png";
 const Purpose = () => {
   const [data, setData] = useState([]);
 
-  const url = "http://localhost:8080/deskfounder";
+  const url = process.env.REACT_APP_URL;
+
 
   const getData = async () => {
     try {
-      let data = await fetch(`${url}`);
+      let data = await fetch(`${url}/deskfounder`);
       data = await data.json();
       setData(data[0]);
       console.log("founder", data);
@@ -170,19 +171,21 @@ const Purpose = () => {
             <div className="founder-padding">
               <div className="founder-flex">
                 <div className="founder-left">
-                  {/* <p className="Fabrication">
-                    {data?.Deskfounder_name}
-                  </p> */}
+                
 
                   <div
                     className="Fabrication"
-                    dangerouslySetInnerHTML={{ __html: data?.Deskfounder_name }}
+                    dangerouslySetInnerHTML={{ __html: data?.description }}
                   />
+                   <p className="Fabrication">
+                    {data?.author_name}
+                  </p>
                 </div>
+               
                 <div className="founder-right">
                   <div className="founder-img-bg">
                     <img
-                      src={`${url}/${data?.Deskfounder_images}`}
+                      src={`${url}/deskfounder/${data?.Deskfounder_images}`}
                       alt=""
                       srcset=""
                       className="founder-img"
