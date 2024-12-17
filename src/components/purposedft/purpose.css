@@ -148,9 +148,9 @@
   gap: 56px;
 }
 .founder-left {
-  max-width: 928px;
+  /* max-width: 928px;
   min-width: 250px;
-  width: 100%;
+  width: 100%; */
   /* border: 1px solid black; */
   text-align: justify;
 }
@@ -194,14 +194,14 @@
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins-Regular;
-  padding: 0 0 15px;
+  /* padding: 0 0 15px; */
 }
 .founder-padding {
   padding: 0 30px;
 }
 hr {
   border: 1px solid #e42326;
-  margin: 65px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 .hr-line {
   /* padding: 65px 0 50px 0; */
@@ -551,7 +551,7 @@ line-height: 25px;
   font-size: 16px;
   line-height: 30px;
   font-family: Poppins-Regular;
-  padding: 0 0 15px ;
+  /* padding: 0 0 15px ; */
 }
 .immense {
   font-size: 16px;
