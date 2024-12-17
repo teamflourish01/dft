@@ -9,12 +9,11 @@ const Purpose = () => {
 
   const url = process.env.REACT_APP_URL;
 
-
   const getData = async () => {
     try {
       let data = await fetch(`${url}/deskfounder`);
       data = await data.json();
-      setData(data[0]);
+      setData(data);
       console.log("founder", data);
     } catch (error) {
       console.log(error);
@@ -161,7 +160,7 @@ const Purpose = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="full-width">
           <div className="main-content-1320">
             <div className="padding-dft"></div>
@@ -186,7 +185,7 @@ const Purpose = () => {
                   <div className="founder-img-bg">
                     <img
                       src={`${url}/deskfounder/${data?.Deskfounder_images}`}
-                      alt=""
+                      alt="desk of founder"
                       srcset=""
                       className="founder-img"
                     />
@@ -196,7 +195,51 @@ const Purpose = () => {
             </div>
           </div>
         </div>
+        <div className="hr-line">
+        <hr />
+      </div>
+      </section> */}
+
+      <section>
+        <div className="full-width">
+          <div className="main-content-1320">
+            <div className="padding-dft"></div>
+            <div className="title">
+              <p className="maintitle">From the Desk of the Founder</p>
+            </div>
+            {data?.map((item, index) => (
+              <div className="founder-padding" key={index}>
+                <div className="founder-flex">
+                  <div className="founder-left">
+                    <div
+                      className="Fabrication"
+                      dangerouslySetInnerHTML={{ __html: item?.description }}
+                    />
+                    <p className="Fabrication">{item?.author_name}</p>
+                  </div>
+                  {item?.Deskfounder_images ? (
+            <div className="founder-right">
+              <div className="founder-img-bg">
+                <img
+                  src={`${url}/deskfounder/${item?.Deskfounder_images}`}
+                  alt="desk of founder"
+                  className="founder-img"
+                />
+              </div>
+            </div>
+          ) : null}
+
+                
+                </div>
+               {index< data?.length-1 &&<div className="hr-line">
+                  <hr />
+                </div>}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
+
       {/* <section>
         <div className="full-width">
           <div className="main-content-1320">
@@ -263,11 +306,8 @@ const Purpose = () => {
           </div>
         </div>
       </section> */}
-      <div className="hr-line">
-        <hr />
-      </div>
 
-      <section>
+      {/* <section>
         <div className="full-width">
           <div className="main-content-1320">
             <div className="padding-dft"></div>
@@ -306,12 +346,12 @@ const Purpose = () => {
             </div>
           </div>
         </div>
-      </section>
-      <div className="hr-line">
+        <div className="hr-line">
         <hr />
       </div>
+      </section> */}
 
-      <section>
+      {/* <section>
         <div className="full-width">
           <div className="main-content-1320">
             <div className="padding-dft"></div>
@@ -423,7 +463,7 @@ const Purpose = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

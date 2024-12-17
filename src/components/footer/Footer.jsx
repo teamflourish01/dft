@@ -140,6 +140,11 @@ const Footer = () => {
                       Contact Us
                     </Link>
                   </li>
+                  <li className={isActive("/privacy")}>
+                    <Link to="/privacy" className="nav-link">
+                      Privacy Policy
+                    </Link>
+                  </li>
                 </div>
               </div>
               <div className="f-link">

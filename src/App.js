@@ -18,6 +18,7 @@ import Contact from './components/contact/Contact';
 import ContactUs from './pages/contactus/ContactUs';
 import Gallery from './components/gallery/Gallery';
 // import About from './components/aboutus/About';
+import Privacy from './components/Privacy/Privacy';
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
         <Route path="/gallery/:id" element={<Galleryimg />} />
         <Route path='/notabalalumni' element={<NotabalAlumni/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
+        <Route path='/privacy' element={<Privacy/>}/>
+
 
       </Routes>
       </div>

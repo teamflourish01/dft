@@ -1,0 +1,93 @@
+.privacy-container {
+  max-width: 1380px;
+  min-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.privacy-top-title {
+  font-family: Montserrat-Bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  padding-top: 100px;
+}
+.privacy-title {
+  font-family: Poppins-SemiBold;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: left;
+  padding: 32px 0 10px;
+}
+.p-desc-privacy {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+.green-txt {
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: #5aba47;
+}
+.p-p-10 {
+  padding: 10px 0;
+}
+.number-title-privacy {
+  font-family: Poppins-Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  padding: 20px 0 10px;
+}
+.p-l-ul-10px {
+  padding-left: 30px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.p-bottom {
+  padding-bottom: 10px;
+}
+.p-t-35 {
+  padding-top: 35px;
+}
+
+@media (max-width: 1024px) {
+  .privacy-container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .privacy-top-title {
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .privacy-title {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .p-desc-privacy {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .number-title-privacy {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .privacy-container {
+    padding: 0 10px;
+}
+}
+.black{
+  color: black;
+}
+.black:hover{
+  color: black;
+}
