@@ -19,6 +19,8 @@ import ContactUs from './pages/contactus/ContactUs';
 import Gallery from './components/gallery/Gallery';
 // import About from './components/aboutus/About';
 import Privacy from './components/Privacy/Privacy';
+import Terms from './components/Termscondition/Terms';
+import Cancellation from './components/Cancellation/Cancellation';
 
 
 function App() {
@@ -37,7 +39,10 @@ function App() {
         <Route path="/gallery/:id" element={<Galleryimg />} />
         <Route path='/notabalalumni' element={<NotabalAlumni/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
-        <Route path='/privacy' element={<Privacy/>}/>
+        <Route path='/privacyPolicy' element={<Privacy/>}/>
+        <Route path='/Cancellation&RefundPolicy' element={< Cancellation/>}/>
+        <Route path='/terms&Conditions' element={<Terms />} />
+        
 
 
       </Routes>

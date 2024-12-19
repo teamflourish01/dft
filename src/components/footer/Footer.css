@@ -59,10 +59,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+.Quick{
+  margin: 10px 0;
+  padding: 5px 0;
+    border-bottom: 1px solid white;
+    width: 103px;
+    color: white;
+}
 .footer-main {
   width: 100%;
   background-color: black;
   /* height: 466px; */
+}
+.privacy-link {
+  border: 1px solid white;
+}
+.policy {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid white;
+  width: 70px;
+  color: white;
+}
+.logo-right{
+ 
+  height: 103px;
+  margin: 53px 0 30px;
 }
 .fimg {
   text-align: end;
@@ -88,7 +110,7 @@
   /* height: 250px; */
 }
 .logoimg img {
-  width: 105px;
+
   height: 85px;
 }
 .since {
@@ -102,14 +124,13 @@
   font-family: Poppins-Regular;
   color: white;
 }
-.link-icons{
-    display: flex;
-    gap: 25px;
-    /* grid-template-columns: repeat(5, 80px); */
-    justify-content: center;
-    padding: 15px;
-  
-  }
+.link-icons {
+  display: flex;
+  gap: 25px;
+  /* grid-template-columns: repeat(5, 80px); */
+  justify-content: center;
+  padding: 15px;
+}
 .link {
   /* color: white; */
   padding: 30px 0;
@@ -121,13 +142,15 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
+  flex-direction: column;
+  gap: 7px;
 }
 .logoimg {
   padding: 53px 0 30px 0;
   text-align: center;
 }
 .f-link {
-  padding: 0 0 47px 0;
+  padding: 17px 0 47px 0;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -155,7 +178,7 @@ li {
   text-decoration: none;
   padding: 0 0 0 10px;
 }
-.devlopedby:hover{
+.devlopedby:hover {
   /* color: #E42326; */
 }
 .link {
@@ -165,31 +188,58 @@ li {
   font-weight: 600;
 }
 .active-link {
-    color:#E42326 ;
-    
-  }
+  color: #e42326;
+}
 
+.footer-row-main {
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-evenly;
+}
+.footer-row-left {
+ 
+}
+.footer-links {
+  
+}
+.left-logo{}
 @media screen and (max-width: 1024px) {
   .link {
     /* color: white; */
-    padding: 30px 30px;
+    padding: 0px;
   }
   .footer-padding {
     padding: 50px 0 0 0;
+  }
+  .f-link{
+    padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .link-flex {
-    gap: 20px;
-    text-align: center;
+    gap: 10px;
+    text-align: left;
     flex-direction: column;
   }
-  .link-icons{
-    flex-wrap: wrap;
+  .link-icons {
+    /* flex-wrap: wrap; */
     grid-template-columns: repeat(2, 80px);
     justify-content: center;
-    padding: 15px 20px;
-  
+    padding: 0px;
+    gap: 3px;
+  }
+  .footer-row-main{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .last-logo{
+    margin: 0 auto;
+  }
+  .f-link p{
+    padding: 30px 0 53px;
   }
 }

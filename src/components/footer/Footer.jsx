@@ -8,7 +8,7 @@ import instagram from "../../images/insta.png";
 import facebook from "../../images/fb.png";
 import youtube from "../../images/youtube.png";
 import linkdin from "../../images/linkdin.png";
-
+import logomain from "../../images/logomain.png"
 const Footer = () => {
   const location = useLocation();
 
@@ -22,14 +22,16 @@ const Footer = () => {
 
   return (
     <>
-      {/* <div className="fimg"><img src={fimg} alt="" srcset="" className="fimg-end" /> </div> */}
+     
       <div className="footer-padding">
         <div className="footer-main">
           <div className="under-1320">
-            <div className="under-1026">
+            
+            <div className="footer-row-main">
+            <div className="footer-row-left">
               <div className="logoimg">
                 <Link to="/">
-                  <img src={flogo} alt="DFT Alumni Family Logo" />
+                  <img src={flogo} alt="DFT Alumni Family Logo"  className="left-logo"/>
                 </Link>
               </div>
               <div className="since">
@@ -75,46 +77,12 @@ const Footer = () => {
                   <img src={youtube} alt="" srcset="" />
                 </a>
               </div>
-              {/* <div className="link">
-                <div className="link-flex">
-
-                  <Link to="/" className="footer-link">
-                    <li className="style">Home</li>
-                  </Link>
-                  <li className="style">
-                    <Link to="/about" className="nav-link">
-                      About DFT Alumni
-                    </Link>
-                  </li>
-                  <li className="style">
-                    <Link to="/newsletter" className="nav-link">
-                      Newsletter
-                    </Link>
-                  </li>
-                  <li className="style">
-                    <Link to="/notabalalumni" className="nav-link">
-                      Notable Alumni
-                    </Link>
-                  </li>
-                  <li className="style">
-                    <Link to="/Gallerypage" className="nav-link">
-                      Gallery
-                    </Link>
-                  </li>
-                  <li className="style">
-                    <Link to="/contactus" className="nav-link">
-                      Contact Us
-                    </Link>
-                  </li>
-                </div>
-              </div> */}
+              </div>
+             <div className="footer-links">
               <div className="link">
+             <p className="Quick">Quick Links</p>
                 <div className="link-flex">
-                  <li className={isActive("/")}>
-                    <Link to="/" className="footer-link">
-                      Home
-                    </Link>
-                  </li>
+                
                   <li className={isActive("/about")}>
                     <Link to="/about" className="nav-link">
                       About DFT Alumni
@@ -125,27 +93,48 @@ const Footer = () => {
                       Newsletter
                     </Link>
                   </li>
-                  <li className={isActive("/notabalalumni")}>
-                    <Link to="/notabalalumni" className="nav-link">
-                      Notable Alumni
-                    </Link>
-                  </li>
-                  <li className={isActive("/Gallerypage")}>
-                    <Link to="/Gallerypage" className="nav-link">
-                      Gallery
-                    </Link>
-                  </li>
+                  
+                  
                   <li className={isActive("/contactus")}>
                     <Link to="/contactus" className="nav-link">
                       Contact Us
                     </Link>
                   </li>
-                  <li className={isActive("/privacy")}>
-                    <Link to="/privacy" className="nav-link">
+                  
+                </div>
+              </div>
+              </div>
+
+
+                <div className="link">
+                <p className="policy">Policy</p>
+                <div className="link-flex">
+                <li className={isActive("/privacy")}>
+                    <Link to="/privacyPolicy" className="nav-link">
                       Privacy Policy
                     </Link>
                   </li>
+
+
+
+                  <li className={isActive("/terms")}>
+                    <Link to="/terms&Conditions" className="nav-link">
+                    Terms & Conditions
+                    </Link>
+                  </li>
+
+
+
+                  <li className={isActive("/cancellation")}>
+                    <Link to="/Cancellation&RefundPolicy" className="nav-link">
+                    Cancellation & Refund Policy
+                    </Link>
+                  </li>
                 </div>
+                </div>
+
+
+               
               </div>
               <div className="f-link">
                 <p>
@@ -160,7 +149,7 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
