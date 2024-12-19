@@ -1,8 +1,12 @@
 import React from "react";
 import "../Privacy/Privacy.css";
+import Banner from "../banner/Banner";
 const Privacy = () => {
   return (
     <>
+      <div className="banner">
+    <Banner currentTabName="Privacy Policy" />
+</div>
       <div className="privacy-container">
         <div className="privacy-top-title">Privacy Policy</div>
         <br></br>
